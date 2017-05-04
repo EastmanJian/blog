@@ -1,3 +1,7 @@
+#!/bin/sh -v
+
+#Run 'jekyll build' to generate _site files first before deplyment.
+#pack and ship _site/* files to VPS lighttpd's document-root/blog
 tar cvfz _site.tar.gz _site/
 scp -P 28411 _site.tar.gz root@45.78.51.215:/srv/www/htdocs
 ssh -p 28411 root@45.78.51.215 tar xvfz /srv/www/htdocs/_site.tar.gz
