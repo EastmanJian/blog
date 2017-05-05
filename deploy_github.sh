@@ -1,6 +1,8 @@
 #!/bin/sh -v
 
 #The current tree should be tracking with GitHub repo 'blog' with two branches, master and gh-pages.
+#   master   --> source files with Jekyll structure.
+#   gh-pages --> generated static website files
 #Run 'jekyll build' to generate _site files first before deplyment.
 
 #backup the files under _site
