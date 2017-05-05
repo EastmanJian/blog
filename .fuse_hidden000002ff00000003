@@ -12,7 +12,6 @@ cp -r _site/ /tmp/
 git checkout gh-pages
 rm -r ./*
 cp -r /tmp/_site/* ./
-rm -r /tmp/_site/
 
 #deply to github
 git add -A
@@ -21,3 +20,6 @@ git push origin gh-pages
 
 #switch back to master branch
 git checkout master
+
+#clean up
+rm -r /tmp/_site/
