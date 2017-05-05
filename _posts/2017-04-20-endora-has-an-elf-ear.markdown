@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Endora has an Elf's ear?"
-date: 2017-05-05 23:03:34 +08:00
+date: 2017-04-20 23:03:34 +08:00
 categories: baby
 tags: Endora
 ---
@@ -9,7 +9,7 @@ tags: Endora
 * content
 {:toc}
 
-Remeber in the Trilogy **The Lord of the Rings**, Legolas is one of the soldier from Elf race. Elves have special **ears** and they are naturally **immortal**!
+Remember in the Trilogy **The Lord of the Rings**, Legolas is one of the soldier from Elf race. Elves have special **ears** and they are naturally **immortal**!
 
 ![Legolas](http://eastmanjian.cn/blog/images/endora/Elf_Legolas.jpg)
 
