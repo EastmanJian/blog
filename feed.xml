@@ -3,11 +3,37 @@
   <channel>
     <title>Eastman's Blog</title>
     <description></description>
-    <link>http://45.78.51.215/blog/</link>
-    <atom:link href="http://45.78.51.215/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 May 2017 14:33:47 +0800</pubDate>
-    <lastBuildDate>Fri, 05 May 2017 14:33:47 +0800</lastBuildDate>
+    <link>http://localhost:4000/blog/</link>
+    <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 06 May 2017 01:41:20 +0800</pubDate>
+    <lastBuildDate>Sat, 06 May 2017 01:41:20 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Why Endora has an Elf's ear?</title>
+        <description>
+Remeber in the Trilogy &lt;strong&gt;The Lord of the Rings&lt;/strong&gt;, Legolas is one of the soldier from Elf race. Elves have special &lt;strong&gt;ears&lt;/strong&gt; and they are naturally &lt;strong&gt;immortal&lt;/strong&gt;!
+
+&lt;img src=&quot;http://eastmanjian.cn/blog/images/endora/Elf_Legolas.jpg&quot; alt=&quot;Legolas&quot; /&gt;
+
+&lt;img src=&quot;http://eastmanjian.cn/blog/images/endora/legolas_ear.jpg&quot; alt=&quot;Legolas_ear&quot; /&gt;
+
+Now Endora has a same type of ear. 👂 Will she be an Elf and live forever? 😎😎
+
+&lt;img src=&quot;http://eastmanjian.cn/blog/images/endora/mmexport1492659652432.jpg&quot; alt=&quot;Endora&quot; /&gt;
+
+&lt;img src=&quot;http://eastmanjian.cn/blog/images/endora/endora_ear.jpg&quot; alt=&quot;Endora_ear&quot; /&gt;
+</description>
+        <pubDate>Fri, 05 May 2017 23:03:34 +0800</pubDate>
+        <link>http://localhost:4000/blog/2017/05/05/endora-has-an-elf-ear/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/05/05/endora-has-an-elf-ear/</guid>
+        
+        <category>endora</category>
+        
+        
+        <category>baby</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -27,8 +53,8 @@ Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll do
 
 </description>
         <pubDate>Tue, 02 May 2017 12:02:48 +0800</pubDate>
-        <link>http://45.78.51.215/blog/2017/05/02/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://45.78.51.215/blog/2017/05/02/welcome-to-jekyll/</guid>
+        <link>http://localhost:4000/blog/2017/05/02/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/05/02/welcome-to-jekyll/</guid>
         
         <category>Jekyll</category>
         
