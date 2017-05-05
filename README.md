@@ -1,6 +1,6 @@
-# 🌞 🏸 Eastman's Blog's source 
+# ![EJ](http://eastmanjian.cn/blog/favicon.ico) Eastman's Blog's source 
 
-![EJ](http://eastmanjian.cn/blog/favicon.ico)
+🌞 🏸 
 
 The blog is built using [Jekyll] static site generator.
 
