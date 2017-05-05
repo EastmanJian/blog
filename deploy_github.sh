@@ -3,13 +3,18 @@
 #The current tree should be tracking with GitHub repo 'blog' with two branches, master and gh-pages.
 #   master   --> source files with Jekyll structure.
 #   gh-pages --> generated static website files
+
 #Run 'jekyll build' to generate _site files first before deplyment.
+jekyll build
 
 #backup the files under _site
-cp -r _site/ /tmp/
+cp -rf _site/ /tmp/
 
 #switch working tree to gh-pages branch and refresh the files with the latest _site files backup above
 git checkout gh-pages
+if [ $? -ne 0 ]; then
+    exit 1
+fi
 rm -r ./*
 cp -r /tmp/_site/* ./
 
