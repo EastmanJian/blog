@@ -13,6 +13,17 @@ url: "http://45.78.51.215" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
+# VPS configuration
+# Follow settings are for deploying the blog to VPS. Used by the deployment shell scripts.
+# The client public key should be placed in the .ssh/authorized_keys for connection establishment.
+#   vps_htdocs_root - the hyper text document root of the web server in the VPS
+vps_host:         eastmanjian.cn
+vps_ssh_port:     28411
+vps_ssh_username: eastman
+vps_htdocs_root:  /srv/www/htdocs
+vps_jekyll_site:  /home/eastman/eastman_blog
+
+
 # other links
 twitter_username: 18_50935
 facebook_username: eastman.jian
@@ -36,7 +47,7 @@ disqus_shortname: eastmanjian
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
 baidu_tongji_id: 0998a317ab8f322056573eabdaade12c
-google_analytics_id: (TBC) # google 分析追踪id
+google_analytics_id: #google 分析追踪id
 
 # Build settings
 markdown: kramdown
