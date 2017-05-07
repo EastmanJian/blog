@@ -16,6 +16,10 @@ Remember in the Trilogy **The Lord of the Rings**, Legolas is one of the soldier
 ![Legolas_ear](http://eastmanjian.cn/blog/images/endora/legolas_ear.jpg)
 
 Now Endora has a same type of ear. 👂 Will she be an Elf and live forever? 😎😎
+Look at her...
+
+
+
 
 ![Endora](http://eastmanjian.cn/blog/images/endora/mmexport1492659652432.jpg)
 
