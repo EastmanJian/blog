@@ -17,7 +17,7 @@ As the founder *John Grube* says about the philosophy of markdown,
 > Markdown is intended to be as easy-to-read and easy-to-write in plain text as is feasible.  
 > It is a text-to-HTML conversion tool for web writers. Markdown allows you to write using a plain text format, then convert it to structurally valid XHTML (or HTML).
 
-Jekyll supports markdown format. Here are some frequently used formatting syntax✒.  
+Jekyll supports markdown format. Here are some frequently used formatting syntax📑.  
 
 
 
@@ -26,26 +26,30 @@ Jekyll supports markdown format. Here are some frequently used formatting syntax
 ## **Headers**
 <table>
     <tr>
-        <td> ✒ <B>Syntax</B>
+        <td> 📑 <B>Syntax</B>
 <br># This is an H1 
 <br>## This is an H2
 <br>### This is an H3
+<br>#### This is an H4
+<br>##### This is an H5
 <br>###### This is an H6
         </td>
     </tr>
 </table>
   
-👀**Result**    
+😎**Result**    
 # This is an H1
 ## This is an H2
 ### This is an H3
+#### This is an H4
+##### This is an H5
 ###### This is an H6
 
 
 ## **List**
 <table>
     <tr>
-        <td> ✒<B>Syntax</B>
+        <td> 📑<B>Syntax</B>
 <br>* Violet
 <br>* Endora
 <br>* Seven seven
@@ -54,7 +58,7 @@ Jekyll supports markdown format. Here are some frequently used formatting syntax
     </tr>
 </table>
   
-👀**Result**    
+😎**Result**    
 * Violet
 * Endora
 * Seven seven
@@ -63,7 +67,7 @@ Jekyll supports markdown format. Here are some frequently used formatting syntax
 ## **Ordered List**
 <table>
     <tr>
-        <td> ✒<B>Syntax</B>
+        <td> 📑<B>Syntax</B>
 <br>1. Multimedia room
 <br>2. Junior fiction
 <br>3. journals & Magazines
@@ -72,7 +76,7 @@ Jekyll supports markdown format. Here are some frequently used formatting syntax
     </tr>
 </table>
   
-👀**Result**  
+😎**Result**  
 1. Multimedia room
 2. Junior fiction
 3. journals & Magazines 
@@ -81,7 +85,7 @@ Jekyll supports markdown format. Here are some frequently used formatting syntax
 ## **Block Quotes**
 <table>
     <tr>
-        <td> ✒<B>Syntax</B>
+        <td> 📑<B>Syntax</B>
 <br>> I’ve had enough of your cheek.
 <br>>  > I was pouring with sweat, and my head was spinning.  
 <br>
@@ -91,7 +95,7 @@ Jekyll supports markdown format. Here are some frequently used formatting syntax
     </tr>
 </table>
   
-👀**Result**  
+😎**Result**  
 > I’ve had enough of your cheek.
 >  > I was pouring with sweat, and my head was spinning.  
 
@@ -102,26 +106,26 @@ Jekyll supports markdown format. Here are some frequently used formatting syntax
 ## **Links**
 <table>
     <tr>
-        <td> ✒<B>Syntax</B>
+        <td> 📑<B>Syntax</B>
 <br>Here is the [official website of markdown syntax](http://daringfireball.net/projects/markdown/syntax)
         </td>
     </tr>
 </table>
   
-👀**Result**  
+😎**Result**  
 Here is the [official website of markdown syntax](http://daringfireball.net/projects/markdown/syntax)
 
 ## **Images**
 <table>
     <tr>
-        <td> ✒<B>Syntax</B>
+        <td> 📑<B>Syntax</B>
 <br>![Daring Fireball](http://daringfireball.net/graphics/logos/)
 <br>![Jekyll](https://jekyllrb.com/img/logo-2x.png)
         </td>
     </tr>
 </table>
   
-👀**Result**    
+😎**Result**    
 
 ![Daring Fireball](http://daringfireball.net/graphics/logos/)
 ![Jekyll](https://jekyllrb.com/img/logo-2x.png)
@@ -130,25 +134,48 @@ Here is the [official website of markdown syntax](http://daringfireball.net/proj
 ## **Italic and Emphasis**
 <table>
     <tr>
-        <td> ✒<B>Syntax</B>
+        <td> 📑<B>Syntax</B>
 <br>*Goethe's* dramatic and overwrought style, embracing the psychological extremes and restless introspection of his lead character, strongly influenced the **Sturm und Drang** movement in Germany, which emerged as a rebellion against prior artistic dictates of serenity, order and reason.
         </td>
     </tr>
 </table>
   
-👀**Result**  
+😎**Result**  
 *Goethe's* dramatic and overwrought style, embracing the psychological extremes and restless introspection of his lead character, strongly influenced the **Sturm und Drang** movement in Germany, which emerged as a rebellion against prior artistic dictates of serenity, order and reason.
+
+
+## **Table**
+<table>
+    <tr>
+        <td> 📑<B>Syntax</B>
+<br>| Tables        | Are           | Cool  |
+<br>| ------------- |:-------------:| -----:|
+<br>| col 3 is      | right-aligned | $1600 |
+<br>| col 2 is      | centered      |   $12 |
+<br>| zebra stripes | are neat      |    $1 |
+        </td>
+    </tr>
+</table>
+
+😎**Result**  
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 
 ## **Code Block**
 <table>
     <tr>
-        <td> ✒<B>Syntax</B>
+        <td> 📑<B>Syntax</B>
 <br>Use `system.out.println()` to print msg to stdout in java, for example `system.out.println("Fucking awesome!")` will display 'Fucking awesome!' in stdout.
         </td>
     </tr>
 </table>
   
-👀**Result**  
+😎**Result**  
 Use `system.out.println()` to print msg to stdout in java, for example `system.out.println("Fucking awesome!")` will display 'Fucking awesome!' in stdout.
 
 
@@ -156,7 +183,7 @@ Use `system.out.println()` to print msg to stdout in java, for example `system.o
 ### Java
 <table>
     <tr>
-        <td> ✒<B>Syntax</B>
+        <td> 📑<B>Syntax</B>
 <br>｛% highlight java %｝
 <br>public static DateTime getTomorrowDate(){
 <br>    Thread.Sleep(24*60*60*1000*1);
@@ -167,7 +194,7 @@ Use `system.out.println()` to print msg to stdout in java, for example `system.o
     </tr>
 </table>
   
-👀**Result**  
+😎**Result**  
 {% highlight java %}
 public static DateTime getTomorrowDate(){ 
     Thread.Sleep(24*60*60*1000*1);
@@ -179,7 +206,7 @@ public static DateTime getTomorrowDate(){
 ### JavaScript
 <table>
     <tr>
-        <td> ✒<B>Syntax</B>
+        <td> 📑<B>Syntax</B>
 <br>```js
 <br>/**
 <br> * strip down XML doc
@@ -208,7 +235,7 @@ public static DateTime getTomorrowDate(){
     </tr>
 </table>
   
-👀**Result**  
+😎**Result**  
 ```js
 /**
  * strip down XML doc
@@ -237,7 +264,7 @@ XmlHelper.prototype._strip = function (block, xmlsrc)
 ## **Horizontal Rule**
 <table>
     <tr>
-        <td> ✒<B>Syntax</B>
+        <td> 📑<B>Syntax</B>
 <br>* * *
 <br>***
 <br>*****
@@ -248,7 +275,7 @@ XmlHelper.prototype._strip = function (block, xmlsrc)
     </tr>
 </table>
   
-👀**Result**  
+😎**Result**  
 * * *
 ***
 *****
