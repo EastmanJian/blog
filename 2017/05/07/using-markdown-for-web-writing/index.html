@@ -168,7 +168,13 @@
   <li><a href="#this-is-an-h1" id="markdown-toc-this-is-an-h1">This is an H1</a>    <ul>
       <li><a href="#this-is-an-h2" id="markdown-toc-this-is-an-h2">This is an H2</a>        <ul>
           <li><a href="#this-is-an-h3" id="markdown-toc-this-is-an-h3">This is an H3</a>            <ul>
-              <li><a href="#this-is-an-h6" id="markdown-toc-this-is-an-h6">This is an H6</a></li>
+              <li><a href="#this-is-an-h4" id="markdown-toc-this-is-an-h4">This is an H4</a>                <ul>
+                  <li><a href="#this-is-an-h5" id="markdown-toc-this-is-an-h5">This is an H5</a>                    <ul>
+                      <li><a href="#this-is-an-h6" id="markdown-toc-this-is-an-h6">This is an H6</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </li>
         </ul>
@@ -179,6 +185,7 @@
       <li><a href="#links" id="markdown-toc-links"><strong>Links</strong></a></li>
       <li><a href="#images" id="markdown-toc-images"><strong>Images</strong></a></li>
       <li><a href="#italic-and-emphasis" id="markdown-toc-italic-and-emphasis"><strong>Italic and Emphasis</strong></a></li>
+      <li><a href="#table" id="markdown-toc-table"><strong>Table</strong></a></li>
       <li><a href="#code-block" id="markdown-toc-code-block"><strong>Code Block</strong></a></li>
       <li><a href="#code-snippets-supported-by-jekyll" id="markdown-toc-code-snippets-supported-by-jekyll"><strong>Code Snippets</strong> (supported by Jekyll)</a>        <ul>
           <li><a href="#java" id="markdown-toc-java">Java</a></li>
@@ -200,31 +207,35 @@ Markdown is intended to be as easy-to-read and easy-to-write in plain text as is
 It is a text-to-HTML conversion tool for web writers. Markdown allows you to write using a plain text format, then convert it to structurally valid XHTML (or HTML).</p>
 </blockquote>
 
-<p>Jekyll supports markdown format. Here are some frequently used formatting syntax✒.</p>
+<p>Jekyll supports markdown format. Here are some frequently used formatting syntax📑.</p>
 
 <hr />
 <h2 id="headers"><strong>Headers</strong></h2>
 <table>
     <tr>
-        <td> ✒ <b>Syntax</b>
+        <td> 📑 <b>Syntax</b>
 <br /># This is an H1 
 <br />## This is an H2
 <br />### This is an H3
+<br />#### This is an H4
+<br />##### This is an H5
 <br />###### This is an H6
         </td>
     </tr>
 </table>
 
-<p>👀<strong>Result</strong></p>
+<p>😎<strong>Result</strong></p>
 <h1 id="this-is-an-h1">This is an H1</h1>
 <h2 id="this-is-an-h2">This is an H2</h2>
 <h3 id="this-is-an-h3">This is an H3</h3>
+<h4 id="this-is-an-h4">This is an H4</h4>
+<h5 id="this-is-an-h5">This is an H5</h5>
 <h6 id="this-is-an-h6">This is an H6</h6>
 
 <h2 id="list"><strong>List</strong></h2>
 <table>
     <tr>
-        <td> ✒<b>Syntax</b>
+        <td> 📑<b>Syntax</b>
 <br />* Violet
 <br />* Endora
 <br />* Seven seven
@@ -233,7 +244,7 @@ It is a text-to-HTML conversion tool for web writers. Markdown allows you to wri
     </tr>
 </table>
 
-<p>👀<strong>Result</strong></p>
+<p>😎<strong>Result</strong></p>
 <ul>
   <li>Violet</li>
   <li>Endora</li>
@@ -244,7 +255,7 @@ It is a text-to-HTML conversion tool for web writers. Markdown allows you to wri
 <h2 id="ordered-list"><strong>Ordered List</strong></h2>
 <table>
     <tr>
-        <td> ✒<b>Syntax</b>
+        <td> 📑<b>Syntax</b>
 <br />1. Multimedia room
 <br />2. Junior fiction
 <br />3. journals &amp; Magazines
@@ -253,7 +264,7 @@ It is a text-to-HTML conversion tool for web writers. Markdown allows you to wri
     </tr>
 </table>
 
-<p>👀<strong>Result</strong></p>
+<p>😎<strong>Result</strong></p>
 <ol>
   <li>Multimedia room</li>
   <li>Junior fiction</li>
@@ -264,7 +275,7 @@ It is a text-to-HTML conversion tool for web writers. Markdown allows you to wri
 <h2 id="block-quotes"><strong>Block Quotes</strong></h2>
 <table>
     <tr>
-        <td> ✒<b>Syntax</b>
+        <td> 📑<b>Syntax</b>
 <br />&gt; I’ve had enough of your cheek.
 <br />&gt;  &gt; I was pouring with sweat, and my head was spinning.  
 <br />
@@ -274,7 +285,7 @@ It is a text-to-HTML conversion tool for web writers. Markdown allows you to wri
     </tr>
 </table>
 
-<p>👀<strong>Result</strong></p>
+<p>😎<strong>Result</strong></p>
 <blockquote>
   <p>I’ve had enough of your cheek.</p>
   <blockquote>
@@ -290,26 +301,26 @@ It is a text-to-HTML conversion tool for web writers. Markdown allows you to wri
 <h2 id="links"><strong>Links</strong></h2>
 <table>
     <tr>
-        <td> ✒<b>Syntax</b>
+        <td> 📑<b>Syntax</b>
 <br />Here is the [official website of markdown syntax](http://daringfireball.net/projects/markdown/syntax)
         </td>
     </tr>
 </table>
 
-<p>👀<strong>Result</strong><br />
+<p>😎<strong>Result</strong><br />
 Here is the <a href="http://daringfireball.net/projects/markdown/syntax">official website of markdown syntax</a></p>
 
 <h2 id="images"><strong>Images</strong></h2>
 <table>
     <tr>
-        <td> ✒<b>Syntax</b>
+        <td> 📑<b>Syntax</b>
 <br />![Daring Fireball](http://daringfireball.net/graphics/logos/)
 <br />![Jekyll](https://jekyllrb.com/img/logo-2x.png)
         </td>
     </tr>
 </table>
 
-<p>👀<strong>Result</strong></p>
+<p>😎<strong>Result</strong></p>
 
 <p><img src="http://daringfireball.net/graphics/logos/" alt="Daring Fireball" />
 <img src="https://jekyllrb.com/img/logo-2x.png" alt="Jekyll" /></p>
@@ -317,32 +328,74 @@ Here is the <a href="http://daringfireball.net/projects/markdown/syntax">officia
 <h2 id="italic-and-emphasis"><strong>Italic and Emphasis</strong></h2>
 <table>
     <tr>
-        <td> ✒<b>Syntax</b>
+        <td> 📑<b>Syntax</b>
 <br />*Goethe's* dramatic and overwrought style, embracing the psychological extremes and restless introspection of his lead character, strongly influenced the **Sturm und Drang** movement in Germany, which emerged as a rebellion against prior artistic dictates of serenity, order and reason.
         </td>
     </tr>
 </table>
 
-<p>👀<strong>Result</strong><br />
+<p>😎<strong>Result</strong><br />
 <em>Goethe’s</em> dramatic and overwrought style, embracing the psychological extremes and restless introspection of his lead character, strongly influenced the <strong>Sturm und Drang</strong> movement in Germany, which emerged as a rebellion against prior artistic dictates of serenity, order and reason.</p>
+
+<h2 id="table"><strong>Table</strong></h2>
+<table>
+    <tr>
+        <td> 📑<b>Syntax</b>
+<br />| Tables        | Are           | Cool  |
+<br />| ------------- |:-------------:| -----:|
+<br />| col 3 is      | right-aligned | $1600 |
+<br />| col 2 is      | centered      |   $12 |
+<br />| zebra stripes | are neat      |    $1 |
+        </td>
+    </tr>
+</table>
+
+<p>😎<strong>Result</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tables</th>
+      <th style="text-align: center">Are</th>
+      <th style="text-align: right">Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 3 is</td>
+      <td style="text-align: center">right-aligned</td>
+      <td style="text-align: right">$1600</td>
+    </tr>
+    <tr>
+      <td>col 2 is</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td style="text-align: center">are neat</td>
+      <td style="text-align: right">$1</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="code-block"><strong>Code Block</strong></h2>
 <table>
     <tr>
-        <td> ✒<b>Syntax</b>
+        <td> 📑<b>Syntax</b>
 <br />Use `system.out.println()` to print msg to stdout in java, for example `system.out.println("Fucking awesome!")` will display 'Fucking awesome!' in stdout.
         </td>
     </tr>
 </table>
 
-<p>👀<strong>Result</strong><br />
+<p>😎<strong>Result</strong><br />
 Use <code class="highlighter-rouge">system.out.println()</code> to print msg to stdout in java, for example <code class="highlighter-rouge">system.out.println("Fucking awesome!")</code> will display ‘Fucking awesome!’ in stdout.</p>
 
 <h2 id="code-snippets-supported-by-jekyll"><strong>Code Snippets</strong> (supported by Jekyll)</h2>
 <h3 id="java">Java</h3>
 <table>
     <tr>
-        <td> ✒<b>Syntax</b>
+        <td> 📑<b>Syntax</b>
 <br />｛% highlight java %｝
 <br />public static DateTime getTomorrowDate(){
 <br />    Thread.Sleep(24*60*60*1000*1);
@@ -353,7 +406,7 @@ Use <code class="highlighter-rouge">system.out.println()</code> to print msg to 
     </tr>
 </table>
 
-<p>👀<strong>Result</strong></p>
+<p>😎<strong>Result</strong></p>
 
 <figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="n">DateTime</span> <span class="nf">getTomorrowDate</span><span class="o">(){</span> 
     <span class="n">Thread</span><span class="o">.</span><span class="na">Sleep</span><span class="o">(</span><span class="mi">24</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">1000</span><span class="o">*</span><span class="mi">1</span><span class="o">);</span>
@@ -363,7 +416,7 @@ Use <code class="highlighter-rouge">system.out.println()</code> to print msg to 
 <h3 id="javascript">JavaScript</h3>
 <table>
     <tr>
-        <td> ✒<b>Syntax</b>
+        <td> 📑<b>Syntax</b>
 <br />```js
 <br />/**
 <br /> * strip down XML doc
@@ -392,7 +445,7 @@ Use <code class="highlighter-rouge">system.out.println()</code> to print msg to 
     </tr>
 </table>
 
-<p>👀<strong>Result</strong></p>
+<p>😎<strong>Result</strong></p>
 <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="cm">/**
  * strip down XML doc
  * @param  {String} block  the current xmlsrc element's block name
@@ -421,7 +474,7 @@ Use <code class="highlighter-rouge">system.out.println()</code> to print msg to 
 <h2 id="horizontal-rule"><strong>Horizontal Rule</strong></h2>
 <table>
     <tr>
-        <td> ✒<b>Syntax</b>
+        <td> 📑<b>Syntax</b>
 <br />* * *
 <br />***
 <br />*****
@@ -432,7 +485,7 @@ Use <code class="highlighter-rouge">system.out.println()</code> to print msg to 
     </tr>
 </table>
 
-<p>👀<strong>Result</strong></p>
+<p>😎<strong>Result</strong></p>
 <hr />
 <hr />
 <hr />
@@ -444,6 +497,13 @@ Use <code class="highlighter-rouge">system.out.println()</code> to print msg to 
         <hr>
 
         
+        
+            
+            
+                
+                    
+                
+            
         
             
             
@@ -468,7 +528,7 @@ Use <code class="highlighter-rouge">system.out.println()</code> to print msg to 
         <div class="post-recent">
     <div class="pre">
         
-        <p><strong>上一篇</strong> <a href="/blog/2017/05/02/welcome-to-jekyll/">Welcome to Jekyll!</a></p>
+        <p><strong>上一篇</strong> <a href="/blog/2017/05/05/Interesting-emoji-characters/">Interesting emoji characters</a></p>
         
     </div>
     <div class="nex">

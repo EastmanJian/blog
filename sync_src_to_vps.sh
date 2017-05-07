@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/sh -vx
 #sync the jekyll site source to the target host.
 #The client public key should be placed in the .ssh/authorized_keys for connection establishment.
 

@@ -1,4 +1,4 @@
-#!/bin/sh -v
+#!/bin/sh -vx
 #Deploy the Jekyll generated _site files to the VPS host's web server document root
 #The client public key should be placed in the .ssh/authorized_keys for connection establishment.
 #Use --images or -i option to sync images files from jekyll source folder only.
