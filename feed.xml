@@ -5,9 +5,41 @@
     <description></description>
     <link>http://45.78.51.215/blog/</link>
     <atom:link href="http://45.78.51.215/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 May 2017 02:42:19 +0800</pubDate>
-    <lastBuildDate>Sat, 06 May 2017 02:42:19 +0800</lastBuildDate>
+    <pubDate>Sun, 07 May 2017 19:34:38 +0800</pubDate>
+    <lastBuildDate>Sun, 07 May 2017 19:34:38 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Using MARKDOWN format for WEB writing</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#its-cool-for-web-writing&quot; id=&quot;markdown-toc-its-cool-for-web-writing&quot;&gt;&lt;strong&gt;It’s cool for web writing&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;its-cool-for-web-writing&quot;&gt;&lt;strong&gt;It’s cool for web writing&lt;/strong&gt;&lt;/h2&gt;
+Keep it simple and stupid. Markdown is invented for web writing as a markup format. Comparing HTML, Markdown is super simple to use so that the article writers can concentrate at the content rather than the formatting. &lt;br /&gt;
+As the founder &lt;em&gt;John Grube&lt;/em&gt; says about the philosophy of markdown,
+
+&lt;blockquote&gt;
+  &lt;strong&gt;PHILOSOPHY&lt;/strong&gt;&lt;br /&gt;
+Markdown is intended to be as easy-to-read and easy-to-write in plain text as is feasible.&lt;br /&gt;
+It is a text-to-HTML conversion tool for web writers. Markdown allows you to write using a plain text format, then convert it to structurally valid XHTML (or HTML).
+&lt;/blockquote&gt;
+
+Jekyll supports markdown format. Here are some frequently used formatting syntax✒.
+
+</description>
+        <pubDate>Sun, 07 May 2017 09:46:00 +0800</pubDate>
+        <link>http://45.78.51.215/blog/2017/05/07/using-markdown-for-web-writing/</link>
+        <guid isPermaLink="true">http://45.78.51.215/blog/2017/05/07/using-markdown-for-web-writing/</guid>
+        
+        <category>markdown</category>
+        
+        
+        <category>Network</category>
+        
+        <category>IT</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -22,8 +54,6 @@ Jekyll also offers powerful support for code snippets:
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.
 
 </description>
         <pubDate>Tue, 02 May 2017 12:02:48 +0800</pubDate>
@@ -51,10 +81,8 @@ Remember in the Trilogy &lt;strong&gt;The Lord of the Rings&lt;/strong&gt;, Lego
 &lt;img src=&quot;http://eastmanjian.cn/blog/images/endora/legolas_ear.jpg&quot; alt=&quot;Legolas_ear&quot; /&gt;
 
 Now Endora has a same type of ear. 👂 Will she be an Elf and live forever? 😎😎
+Look at her…
 
-&lt;img src=&quot;http://eastmanjian.cn/blog/images/endora/mmexport1492659652432.jpg&quot; alt=&quot;Endora&quot; /&gt;
-
-&lt;img src=&quot;http://eastmanjian.cn/blog/images/endora/endora_ear.jpg&quot; alt=&quot;Endora_ear&quot; /&gt;
 </description>
         <pubDate>Thu, 20 Apr 2017 23:03:34 +0800</pubDate>
         <link>http://45.78.51.215/blog/2017/04/20/endora-has-an-elf-ear/</link>
