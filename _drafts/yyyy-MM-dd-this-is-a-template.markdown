@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Essay subject"
+title: "This is a post template"
 date: 2017-01-01 00:00:00 +08:00
 categories: cat1 cat2
 tags: tag1 tag2 tag3

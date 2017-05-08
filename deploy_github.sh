@@ -4,6 +4,12 @@
 #   master   --> source files with Jekyll structure.
 #   gh-pages --> generated static website files
 
+#make sure it's on master branch 
+git checkout master
+if [ $? -ne 0 ]; then
+    exit 1
+fi
+
 #Run 'jekyll build' to generate _site files first before deplyment.
 jekyll build
 
