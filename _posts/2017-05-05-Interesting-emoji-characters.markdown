@@ -9,9 +9,9 @@ tags: emoji
 * content
 {:toc}
 
-They are characters, not images, can be copy-pasted!  
-They are characters, not images, can be copy-pasted!  
-They are characters, not images, can be copy-pasted!  
+They are characters, not images, can be copy-pasted in text format!  
+They are characters, not images, can be copy-pasted in text format!  
+They are characters, not images, can be copy-pasted in text format!  
 📢**重要的事情说三遍**  
   
 🌹🍀🍎💰📱🌙🍁🍂🍃🌷💎🔪🔫🏀⚽⚡👄👍🔥
