@@ -56,6 +56,7 @@ where
     > Run ./sync_src_to_vps.sh if necessary  
     
 or  
+
 3. Deploy to GitHub Page
     > git push origin master  
     > Run ./deploy_github.sh  
