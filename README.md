@@ -30,7 +30,8 @@ e.g.
 
 where   
   vps_htdocs_root is the web server's document root;  
-  vps_jekyll_site is optional, it's for storing the blog's jekyll folder files if you want to push them to VPS as well.
+  vps_jekyll_site is optional, it's for storing the blog's jekyll folder files if you want to push them to VPS as well.  
+  
 4. Download the current repo (master branch) to any Linux machine (dev env). 
 5. Install Jekyll in the dev env.
 6. Authorize the ssh connection between the dev env and the VPS. (put the pub key to VPS's ~/.ssh/authorized_keys file)
@@ -54,7 +55,7 @@ where
     > Run ./deploy_vps.sh  
     > Run ./sync_src_to_vps.sh if necessary  
     
-or
+or  
 3. Deploy to GitHub Page
     > git push origin master  
     > Run ./deploy_github.sh  
