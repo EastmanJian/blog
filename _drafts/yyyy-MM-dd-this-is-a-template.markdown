@@ -48,6 +48,15 @@ Here is the [official website of markdown syntax](http://daringfireball.net/proj
 ## **Italic and Emphasis**
 *Goethe's* dramatic and overwrought style, embracing the psychological extremes and restless introspection of his lead character, strongly influenced the **Sturm und Drang** movement in Germany, which emerged as a rebellion against prior artistic dictates of serenity, order and reason.
 
+## **Table**
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
 ## **Code Block**
 Use `system.out.println()` to print msg to stdout in java, for example `system.out.println("Fucking awesome!")` will display 'Fucking awesome!' in stdout.
 

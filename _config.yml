@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Eastman's Blog
+title: Eastman's Blog🍀
 brief-intro: The grass is no more greener on the other side. 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://45.78.51.215" # the base hostname & protocol for your site
