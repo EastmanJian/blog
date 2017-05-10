@@ -91,7 +91,7 @@ Like a cheatsheet, a summary of some frequently used Git commands and important 
 |commit|提交更改，形成一次改动记录|
 |push|推送到远程库|
 |pull|从远程库取回更改到本地|
-|fetch|取回远程库更改但本地不前进到最新|
+|fetch|取回远程库更改但本地不前进到最新的commit|
 |checkout|切换branch或把文件回退到stage状态|
 |branch|分支|
 |tag|标签|
