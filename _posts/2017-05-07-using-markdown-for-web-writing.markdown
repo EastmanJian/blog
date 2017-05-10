@@ -282,3 +282,25 @@ XmlHelper.prototype._strip = function (block, xmlsrc)
 - - -
 ---
 ---------------------------------------
+
+
+## **Auto Escape**
+<table>
+    <tr>
+        <td> 📑<B>Syntax</B>
+<br>&lt;something in angle bracket&gt;
+<br>&amp;copy;
+<br>AT&amp;T
+<br>4 &lt; 5
+<br>&amp;lt;something in angle bracket&amp;gt;
+        </td>
+    </tr>
+</table>
+  
+😎**Result**  
+
+&copy;  
+AT&T  
+4 < 5  
+&lt;something in angle bracket&gt;
+
