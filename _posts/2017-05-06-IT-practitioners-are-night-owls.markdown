@@ -13,6 +13,10 @@ tags: work life
 
 ![night owl](http://eastmanjian.cn/blog/images/chronobiology/night_owl.jpg)
 
+
+
+
+
 　　先来盘点一下IT大佬们作息，胡润研究院发布了一份有趣的报告，工作人员走访了逾500名至少是千万身家的富豪，调查他们的作息时间后发现，这些富豪平均工作日睡眠6.6个小时，三成亿万富豪工作日睡眠不足6个小时。
 
 #### 国内篇：
