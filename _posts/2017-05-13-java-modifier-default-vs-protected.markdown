@@ -11,13 +11,13 @@ tags: java ocp
 
 ## Java Modifiers Visibility Matrix
 
-There are 4 types of Java access modifiers - public, protected, no modifier, and private. They control Java Class and Class's members' visibility. The following table shows the **Visibility Matrix** for the access modifiers.
+There are 4 types of Java access modifiers - public, protected, no modifier, and private. They control Java Class and Class members' visibility. The following table shows the **Visibility Matrix** for the access modifiers.
 
 |Access Modifiers 👇 |Same Class|Same Package|Subclass (different package)|Other packages|👈 can be accessed by|
 |--------------------|:--------:|:----------:|:--------------------------:|:------------:|---------------------|
 | *public*           |Yes       |Yes         |Yes                         |Yes           |                     |     
 | *protected*        |Yes       |Yes         |Yes                         |No            |                     |
-| *default*          |Yes       |Yes         |No                          |No            | no modifier, like *friendly* in c++                    |
+| *default*          |Yes       |Yes         |No                          |No            | no modifier, like *friendly* in C++ |
 | *private*          |Yes       |No          |No                          |No            |                     |
 
   ***public***: a class, a method, or a variable accessible to all the classes of any package.  
@@ -46,7 +46,7 @@ public class Father {
     }
 }
 ```
-Its subclass *Child* inherit *Father*, in package *edu.exam.ocp.se6.pe.sat1.q02a* (note it's a different package) and try to access *Father*'s two methods with *default* and *protected* access modifiers.
+Its subclass *Child* inherits *Father* in package *edu.exam.ocp.se6.pe.sat1.q02a* (note it's a different package) and try to access *Father*'s two methods with *default* and *protected* access modifiers.
 ```java
 1.  package edu.exam.ocp.se6.pe.sat1.q02a;
 2.  
@@ -63,5 +63,5 @@ Its subclass *Child* inherit *Father*, in package *edu.exam.ocp.se6.pe.sat1.q02a
 ```
 There is a compile error at line 8, which indicates method with *default* modifier cannot be accessed by its subclass in a different package.
   
-> ![modifiers](http://eastmanjian.cn/blog/images/java/protected_vs_default.png)  
+![modifiers](http://eastmanjian.cn/blog/images/java/protected_vs_default.png)  
 
