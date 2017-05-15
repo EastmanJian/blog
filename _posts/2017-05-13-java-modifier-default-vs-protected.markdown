@@ -20,6 +20,10 @@ There are 4 types of Java access modifiers - public, protected, no modifier, and
 | *default*          |Yes       |Yes         |No                          |No            | no modifier, like *friendly* in C++ |
 | *private*          |Yes       |No          |No                          |No            |                     |
 
+
+
+
+
   ***public***: a class, a method, or a variable accessible to all the classes of any package.  
   ***protected***: only available to subclasses (even in different package) and the same package class.  
   ***default*** (without specifiers): assume to friendly, the mothod is only accessible in the package, cannot be accessed by subclass in different package. (unlike C/C++)  

@@ -13,7 +13,12 @@ tags: java ocp
 
 The equals method for class Object implements the most discriminating possible equivalence relation on objects; that is, for any non-null reference values x and y, this method returns true if and only if x and y refer to the same object (x == y has the value true).
 
-## String overrides equals() method, String.equals() compares the string value. 
+
+
+
+
+## String.equals()
+String overrides equals() method, String.equals() compares the string value. 
 
 ### e.g. 
 ```java
@@ -53,3 +58,7 @@ StringBuffer sb1 = new StringBuffer("hi");
 StringBuffer sb2 = new StringBuffer("hi");
 ```
 sb1.equals(sb2) is false.
+
+## Summary
+
+> Use the == comparison operator to determine if two primitive types are equal and also to determine if two references point to the same object. Use the equals method to determine if two objects are “equal,” which is whatever equality means in the business logic of the class.
