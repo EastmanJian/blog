@@ -11,7 +11,7 @@ tags: java ocp polymorphism generics
 
 ### Example of Generics and Polymorphism
 
-Java 1.6 onwards introduced Generics. You can refer to Java books about Generic Classes, Generic Interfaces, Generic Methods. Here we concentrate to a few points which easily lead to confusion.  
+Java 1.5 onwards introduced Generics. You can refer to Java books about Generic Classes, Generic Interfaces, Generic Methods. Here we concentrate to a few points which easily lead to confusion.  
 The following example created two Classes, Flakes inherits Cereal. Then we use them in generic interface List and generic class ArrayList.  
 Can you predict the compile and run result of the following codes?  
 ```java
