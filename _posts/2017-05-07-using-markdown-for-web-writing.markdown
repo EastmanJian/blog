@@ -53,7 +53,8 @@ Jekyll supports markdown format. Here are some frequently used formatting syntax
 <br>* Violet
 <br>* Endora
 <br>* Seven seven
-<br>* Yum yum
+<br>　　* White white
+<br>　　* Yum yum
         </td>
     </tr>
 </table>
@@ -62,7 +63,8 @@ Jekyll supports markdown format. Here are some frequently used formatting syntax
 * Violet
 * Endora
 * Seven seven
-* Yum yum
+    * White white
+    * Yum yum
 
 ## **Ordered List**
 <table>
