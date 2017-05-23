@@ -15,7 +15,7 @@ tags: softskill learning
 >> ***教育就是当一个人把在学校所学全部忘光之后剩下的东西。***
 >> 　　　　　　　　　　　　　　　　　　——阿尔伯特•爱因斯坦
 >
-> ![Book](http://eastmanjian.cn/blog/images/10step_learning/sw_softskill_book.png)
+> ![Book](http://eastmanjian.cn/blog/resources/img/10step_learning/sw_softskill_book.png)
 
 
 
@@ -40,7 +40,7 @@ tags: softskill learning
 > ## 十步学习法
 
 > ### 第 1 步到第 6 步： 这些步骤只做一次  
-> ![Step 1~6](http://eastmanjian.cn/blog/images/10step_learning/step_1-6_en.png)
+> ![Step 1~6](http://eastmanjian.cn/blog/resources/img/10step_learning/step_1-6_en.png)
 
 > #### 第1步： 了解全局  
 > 　　知道“未知之未知” 。如果将“未知之未知”留到后面去发现，这一方法的问题在于， 你要么学非所需， 要么力所不及。 在深入探究某个主题之前至少要对其有所了解， 这一点非常重要。 这样你才能弄清自己到底要学什么， 找出最好的学习方式。  
@@ -81,12 +81,12 @@ tags: softskill learning
 > 　　把你在第4步中收集的全部资源浏览一遍， 找出哪些内容能够覆盖你的学习计划。 看看评论， 试着找出品质最高的资源。 
 
 > ### 第7步到第10步： 循环往复  
-> ![Step 7~10](http://eastmanjian.cn/blog/images/10step_learning/step_7-10_en.png)
+> ![Step 7~10](http://eastmanjian.cn/blog/resources/img/10step_learning/step_7-10_en.png)
 
 > #### 第7步： 开始学习， 浅尝辄止  
 > 　　在学习过程中通常会犯两类错误： 第一类错误是在知之不多的情况下就盲目开始， 即行动太快；第二类错误是在行动之前准备过多， 即行动太晚。 要在这二者之间取得平衡。  
 > 　　这一步的关键在于过犹不及。 你会很容易就失去自控力， 开始消化计划学习中列出的所有资源。 但是， 你会发现， 如果你能经受住这样的诱惑， 你会取得更大的成就。 你要专注于掌握自己所需的、 能在下一步动手操作的最小量的知识。   
-> ![playing around](http://eastmanjian.cn/blog/images/10step_learning/playing_around.png)
+> ![playing around](http://eastmanjian.cn/blog/resources/img/10step_learning/playing_around.png)
 
 > #### 第8步： 动手操作， 边玩边学  
 > 　　这一步真是既有趣又可怕。 说它有趣是因为你真的是在玩耍， 说它可怕是因为这一步完全没有边际。   

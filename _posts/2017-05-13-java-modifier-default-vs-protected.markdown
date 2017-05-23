@@ -67,5 +67,5 @@ Its subclass *Child* inherits *Father* in package *edu.exam.ocp.se6.pe.sat1.q02a
 ```
 There is a compile error at line 8, which indicates method with *default* modifier cannot be accessed by its subclass in a different package.
   
-![modifiers](http://eastmanjian.cn/blog/images/java/protected_vs_default.png)  
+![modifiers](http://eastmanjian.cn/blog/resources/img/java/protected_vs_default.png)  
 

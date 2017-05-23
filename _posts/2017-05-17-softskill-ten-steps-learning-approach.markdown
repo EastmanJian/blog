@@ -15,7 +15,7 @@ In the software development world, technologies are involving rapidly. How to ke
 >> ***Education is what remains after one has forgotten what one has learned in school.***  
 >> 　　　　　　　　　　　　　　　　　　—Albert Einstein
 >
-> ![Book](http://eastmanjian.cn/blog/images/10step_learning/sw_softskill_book.png)
+> ![Book](http://eastmanjian.cn/blog/resources/img/10step_learning/sw_softskill_book.png)
 
 
 
@@ -40,7 +40,7 @@ In the software development world, technologies are involving rapidly. How to ke
 > ## The 10-step system
 
 > ### Steps 1–6: Do these once
-> ![Step 1~6](http://eastmanjian.cn/blog/images/10step_learning/step_1-6_en.png)
+> ![Step 1~6](http://eastmanjian.cn/blog/resources/img/10step_learning/step_1-6_en.png)
 
 > #### Step 1: Get the big picture
 > Know about “unknown unknowns,” or basically what you don’t know that you don’t know. If put these “unknown unknowns” for later discovery, the problem with this approach is that you’re very likely to learn the wrong thing or get in way over your head. It’s important to at least understand a little bit about a subject before diving into it. Then you can figure out exactly what you need to learn and decide the best way to do it.  
@@ -82,12 +82,12 @@ In the software development world, technologies are involving rapidly. How to ke
 > Go through all the resources you’ve gathered in step 4 and figure out which ones have content that will help you to best cover the content in your learning plan. Also take a look at reviews and try to determine which resources are of the highest quality.  
 
 > ### Steps 7–10: Repeat these  
-> ![Step 7~10](http://eastmanjian.cn/blog/images/10step_learning/step_7-10_en.png)
+> ![Step 7~10](http://eastmanjian.cn/blog/resources/img/10step_learning/step_7-10_en.png)
 
 > #### Step 7: Learn enough to get started  
 > There are two common learning mistakes that most people make, myself included. First, there’s the problem of jumping in without knowing enough—acting too soon. Second, there’s the problem of preparing too much before jumping in—acting too late. Strike a balance between the two and learn just enough to get started.
 > The key to this step is to not go too far. It’s easy to get carried away and start consuming all the resources you have on the module you’re trying to learn, but you’ll find the most success if you can avoid that temptation. Instead, focus on learning the minimal amount you’ll need to get started and to be able to experiment on your own in the next step.  
-> ![playing around](http://eastmanjian.cn/blog/images/10step_learning/playing_around.png)
+> ![playing around](http://eastmanjian.cn/blog/resources/img/10step_learning/playing_around.png)
 
 > #### Step 8: Play around  
 > This step is both fun and scary. It’s fun because you get to do exactly what the step says: play around. But it’s scary because the step is completely unbounded.    
