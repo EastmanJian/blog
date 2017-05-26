@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "multi-thread synchronization in Java, notify() vs notifyAll()"
+title: "Multi-thread synchronization in Java, notify() vs notifyAll()"
 date: 2017-05-23 00:11:30 +08:00
 categories: IT Java
 tags: java multi-thread concurrency synchronization
