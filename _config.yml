@@ -69,3 +69,6 @@ excerpt_separator: "\n\n\n\n"
 # paginate
 gems: [jekyll-paginate]
 paginate: 6
+
+# Handling Reading
+exclude:              ["resources/", "deploy_github.sh", "deploy_vps.sh", "push_baidu.sh", "sync_src_to_vps.sh"]

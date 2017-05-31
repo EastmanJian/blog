@@ -16,9 +16,9 @@ jekyll build
 
 #sync _site files or images to VPS
 if [ "$1" = "--resources" -o "$1" = "-r" ] ; then
-  rsync -zrtopgv -e "ssh -p $PORT" --delete --progress ./resources $USERNAME@$HOST:$DES$BASEURL
+  rsync -zrtopgv -e "ssh -p $PORT" --delete --progress ./resources $USERNAME@$HOST:$DES
 else
-  rsync -zrtopgv -e "ssh -p $PORT" --delete --progress ./_site/* $USERNAME@$HOST:$DES$BASEURL
+  rsync -zrtopgv -e "ssh -p $PORT" --delete --progress ./_site/ $USERNAME@$HOST:$DES$BASEURL
 fi
 
 

@@ -16,24 +16,24 @@ tags: AR game
 
 What amazing effects in some games using AR technology! Let's go and see.
 
-![YYS YING HUA YAO](http://eastmanjian.cn/blog/resources/img/game/yys_yh.jpg)
+![YYS YING HUA YAO](http://eastmanjian.cn/resources/img/game/yys_yh.jpg)
 
 
 
 
 ## Monitor-based AR System
 
-![AR System](http://eastmanjian.cn/blog/resources/img/ar/ar_flow.jpg)
+![AR System](http://eastmanjian.cn/resources/img/ar/ar_flow.jpg)
 
 ## I need AV.
 
-![I need AV](http://eastmanjian.cn/blog/resources/img/ar/need-av.jpg)
+![I need AV](http://eastmanjian.cn/resources/img/ar/need-av.jpg)
 
 ##### 莹草开场舞 YYS Ying Cao
 
 <video width="100%" height="" controls="">
 <source src="http://oqpi3pa94.bkt.clouddn.com/mov/ar/YingCao-m-H264.mp4">
-<source src="http://eastmanjian.cn/blog/resources/mov/ar/YingCao-m-H264.mp4">
+<source src="http://eastmanjian.cn/resources/mov/ar/YingCao-m-H264.mp4">
 </video>
 
 
@@ -41,7 +41,7 @@ What amazing effects in some games using AR technology! Let's go and see.
 
 <video width="100%" height="" controls="">
 <source src="http://oqpi3pa94.bkt.clouddn.com/mov/ar/YingHua-m-H264.mp4">
-<source src="http://eastmanjian.cn/blog/resources/mov/ar/YingCao-m-H264.mp4">
+<source src="http://eastmanjian.cn/resources/mov/ar/YingCao-m-H264.mp4">
 </video>
 
 
@@ -50,5 +50,5 @@ What amazing effects in some games using AR technology! Let's go and see.
 
 <video width="100%" height="" controls="">
 <source src="http://oqpi3pa94.bkt.clouddn.com/mov/ar/AR-girl.mp4">
-<source src="http://eastmanjian.cn/blog/resources/mov/ar/AR-girl.mp4">
+<source src="http://eastmanjian.cn/resources/mov/ar/AR-girl.mp4">
 </video>

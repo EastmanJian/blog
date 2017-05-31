@@ -19,7 +19,7 @@ It is an easy option for handling simple events.
 * The difference with anonymous inner classes is that you can create multiple instances of a local inner class within the method, but an anonymous inner class can only be instantiated one time.
 
 ## Lambda expressions 
-![Java 8 Lambda](http://eastmanjian.cn/blog/resources/img/java/java8lambda.png)
+![Java 8 Lambda](http://eastmanjian.cn/resources/img/java/java8lambda.png)
 
 
 
