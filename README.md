@@ -19,6 +19,7 @@ The theme is cloned from [HyG] with customizations.
 The blog can be setup in a server host (e.g. using VPS service vendor bandwagon.com). Setup steps are shown below.  
 1. Register a VPS host.
 2. Install a web server and start it in the VPS. Only static website service is enough. (e.g. lighttpd, glassfish, tomcat, etc..)
+> If HTTPS is required, choose a SSL vendor (e.g. https://letsencrypt.org ), request a cert and configure in the web server. 
 3. Config the following parameters in ./_config.yml. 
 e.g.  
 >    baseurl: "/blog" # the subpath of your site, e.g. /blog
@@ -50,17 +51,35 @@ where
 
 # Write a post.
 1. Write a new post file with markdown format under ./_post folder in the dev env. (you can use template ./_draft/yyyy-MM-dd-this-is-a-template.markdown)
-2. Deploy to VPS. 
+2. Test it in local using 'jekyll serve' command.
+3. Deploy to VPS. 
     > git commit (only for source control, no a dependency of next step)  
     > Run ./deploy_vps.sh  
     > Run ./sync_src_to_vps.sh if necessary  
     
 or  
 
-3. Deploy to GitHub Page
+4. Deploy to GitHub Page
     > git push origin master  
     > Run ./deploy_github.sh  
     
+# Request Search Engine to craw the website.
+## Google
+After registered the website on https://www.google.com/webmasters/tools/home?hl=en , Google automaticall craw the website.
+## Baidu
+Somehow reply on sitemap.txt. Put the URLs in sitemap.txt and goto http://zhanzhang.baidu.com/ to register the URL of the sitemap.txt file.
+The other way is to use curl command to push the URLs to Baidu. Run ./push_baidu.sh.
+    
+    
+# Resource Files Storage
+Resources files (e.g. \*.jpg, \*.mp3, \*.mov, ...) are centralized under ./resources folder. 
+Use either VPS or Clound service to store them for web browsing.
+## Use VPS
+use ./deploy_vps.sh --resource or -r option to deploy resource files to VPS.
+## Use Cloud Storage Service
+Put the resources to Cloud and the Cloud vendor provides URL for each resource file.
+e.g. Vendor https://qiniu.com. It provides a command line tool to manage the storage content. Refer to resources/readme.markdown
+
 # Other configuration
 Please refer to [HyG].
 

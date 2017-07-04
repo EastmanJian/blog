@@ -10,6 +10,13 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
+#make sure master branch is clean
+git status | grep clean
+if [ $? -ne 0 ]; then
+    exit 1
+fi
+ 
+
 #Run 'jekyll build' to generate _site files first before deplyment.
 jekyll build
 
