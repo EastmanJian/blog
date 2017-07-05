@@ -42,20 +42,20 @@ The **"is-a" relationship**, a simple test to determine if you are using a prope
 
 ##### e.g. good design example of "is-a" Relationship (Inheritance)
 
-![a cat is a pet](http://eastmanjian.cn/resources/img/java/cat-pet.png)
+![a cat is a pet](https://ejres-1253687085.picgz.myqcloud.com/img/java/cat-pet.png)
 
-![an employee is a person](http://eastmanjian.cn/resources/img/java/employee-person.png)
+![an employee is a person](https://ejres-1253687085.picgz.myqcloud.com/img/java/employee-person.png)
 
 ##### e.g. bad design example of "is-a" Relationship (Inheritance)
 
-![an employee is not a pet](http://eastmanjian.cn/resources/img/java/employee-pet.png)
+![an employee is not a pet](https://ejres-1253687085.picgz.myqcloud.com/img/java/employee-pet.png)
 
 
 #### The "has-a" Relationship
 The **"has-a" relationship** is a test to decide when a class should use composition. **Composition** refers to a class that contains a reference to another class. 
 
 ##### e.g. good design example of "has-a" Relationship (Composition)
-![an employee has a home address](http://eastmanjian.cn/resources/img/java/employee-address.png)
+![an employee has a home address](https://ejres-1253687085.picgz.myqcloud.com/img/java/employee-address.png)
 
 #### Benefits of adhering to these relationships
 * The resulting code is more logical.
@@ -155,7 +155,7 @@ public class Cat extends Pet implements Mammal {
 }
 ```
 
-![Pet Mammal Cat](http://eastmanjian.cn/resources/img/java/pet-mammal-cat.png)
+![Pet Mammal Cat](https://ejres-1253687085.picgz.myqcloud.com/img/java/pet-mammal-cat.png)
 
 ```
 // console output -> 

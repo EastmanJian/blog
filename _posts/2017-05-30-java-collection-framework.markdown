@@ -9,8 +9,8 @@ tags: java collection
 * content
 {:toc}
 
-![Collections Hierarchy](https://ejres-1253687085.cosgz.myqcloud.com/img/java/CollectionHierarchy.png)
-![Map Hierarchy](https://ejres-1253687085.cosgz.myqcloud.com/img/java/MapInterface.png)
+![Collections Hierarchy](https://ejres-1253687085.picgz.myqcloud.com/img/java/CollectionHierarchy.png)
+![Map Hierarchy](https://ejres-1253687085.picgz.myqcloud.com/img/java/MapInterface.png)
 
 ## Concept of Java Collections Framework  
 Collections Framework is a unified set of classes and interfaces defined in the java.util package for storing collections.  
@@ -34,8 +34,8 @@ Collections Framework represents the collections and their operations. It contai
 ## Interfaces Hierarchy - Implementation - Methods
 The following table is a summary of the collection interfaces hierarchy, their key implementations with different data structure, and principle methods. It's used for quickly lookup the implementation's interface, super interface, and what are the frequently used methods provided by each interface or specific implementation.
 
-![Interface Impl Methods](https://ejres-1253687085.cosgz.myqcloud.com/img/java/CollectionImplMethod.png)
-[*(Enlarge)*](https://ejres-1253687085.cosgz.myqcloud.com/img/java/CollectionImplMethod.png)  [*(Excel Version)*](https://oqpi3pa94.bkt.clouddn.com/doc/CollectionInterfacesImplMethods.xlsx)
+![Interface Impl Methods](https://ejres-1253687085.picgz.myqcloud.com/img/java/CollectionImplMethod.png)
+[*(Enlarge)*](https://ejres-1253687085.picgz.myqcloud.com/img/java/CollectionImplMethod.png)  [*(Excel Version)*](https://ejres-1253687085.cosgz.myqcloud.com/doc/CollectionInterfacesImplMethods.xlsx)
 
 ### Notes
 * The interfaces define the functionality that is **common** to all Collections.  
@@ -54,8 +54,8 @@ The following table is a summary of the collection interfaces hierarchy, their k
 ## Collection Interfaces and Implementation features.
 The following table is a summary of the feature of different collection interfaces and their key implementations. Use it to determine the suitable implementation that your business logic need.
 
-![Collection Features](https://ejres-1253687085.cosgz.myqcloud.com/img/java/CollectionFeatures.png)
-[*(Enlarge)*](https://ejres-1253687085.cosgz.myqcloud.com/img/java/CollectionFeatures.png) 
+![Collection Features](https://ejres-1253687085.picgz.myqcloud.com/img/java/CollectionFeatures.png)
+[*(Enlarge)*](https://ejres-1253687085.picgz.myqcloud.com/img/java/CollectionFeatures.png) 
 
 
 ## References

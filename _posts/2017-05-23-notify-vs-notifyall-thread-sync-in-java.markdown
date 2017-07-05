@@ -14,9 +14,9 @@ tags: java multi-thread concurrency synchronization
 A classic multi-thread model is the **producer/consumer model**, where one thread is “producing” something and another thread is “consuming” something. If the consumer is too fast, it might need to wait for the producer. Once the producer catches up, it can notify the consumer to continue consuming again. This model is frequently used as an example for multi-threading synchronization programming.   
 Following animation pictures illustrate a typical Producer and a Consumer. The Producer produces numbers and push to a stack until it's full, and the Consumer pops (consumes) the numbers out of the stack until it's empty.
 
-![Producer](http://eastmanjian.cn/resources/img/java/producer.gif)
+![Producer](https://ejres-1253687085.picgz.myqcloud.com/img/java/producer.gif)
 
-![Consumer](http://eastmanjian.cn/resources/img/java/consumer.gif)
+![Consumer](https://ejres-1253687085.picgz.myqcloud.com/img/java/consumer.gif)
 
 
 

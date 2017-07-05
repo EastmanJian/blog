@@ -11,9 +11,9 @@ tags: Endora
 
 Remember in the Trilogy **The Lord of the Rings**, Legolas is one of the soldier from Elf race. Elves have special **ears** and they are naturally **immortal**!
 
-![Legolas](http://eastmanjian.cn/resources/img/endora/Elf_Legolas.jpg)
+![Legolas](https://ejres-1253687085.picgz.myqcloud.com/img/endora/Elf_Legolas.jpg)
 
-![Legolas_ear](http://eastmanjian.cn/resources/img/endora/legolas_ear.jpg)
+![Legolas_ear](https://ejres-1253687085.picgz.myqcloud.com/img/endora/legolas_ear.jpg)
 
 Now Endora has a same type of ear. 👂 Will she be an Elf and live forever? 😎😎
 Look at her...
@@ -21,6 +21,6 @@ Look at her...
 
 
 
-![Endora](http://eastmanjian.cn/resources/img/endora/mmexport1492659652432.jpg)
+![Endora](https://ejres-1253687085.picgz.myqcloud.com/img/endora/mmexport1492659652432.jpg)
 
-![Endora_ear](http://eastmanjian.cn/resources/img/endora/endora_ear.jpg)
+![Endora_ear](https://ejres-1253687085.picgz.myqcloud.com/img/endora/endora_ear.jpg)
