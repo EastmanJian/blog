@@ -37,10 +37,15 @@ dribbble_username:
 description_footer: I'm loved when I'm completely by myself alone.
 
 # comments
-# two ways to comment, only choose one, and use your own short name
-# 两种评论插件，选一个就好了，使用自己的 short_name
+# three ways to comment, only choose one, put your comment system configurations here.
 duoshuo_shortname: #hygblog
-disqus_shortname: eastmanjian
+disqus_shortname: #eastmanjian
+changyan_appid: cyt67wD0b
+changyan_appkey: prod_2ae49e77a11e91f985e24b8cc1ed5a58
+
+# Site Search
+# Support Baidu 站内搜索, input the sid below (you can get the sid from the site search script after you registered baidu 站内搜索)
+baidu_znsv_sid: 10213920283290971852
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
