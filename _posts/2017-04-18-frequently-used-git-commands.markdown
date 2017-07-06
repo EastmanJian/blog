@@ -2,7 +2,7 @@
 layout: post
 title: "Frequently used Git commands, important Git concepts"
 date: 2017-04-18 00:00:00 +08:00
-categories: IT SCM
+categories: SCM IT
 tags: scm git
 ---
 

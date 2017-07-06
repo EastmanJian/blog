@@ -13,7 +13,7 @@ tags: softskill learning
 In the software development world, technologies are involving rapidly. How to keep up with the changes? John Z. Sonmez gave some advises on how to learn new technologies and skills in his book *Soft Skills - The software developer's life manual*, which my ex-colleague recommend to read. John invented the '10-steps system' to let you teach yourself efficiently.
 
 >> ***Education is what remains after one has forgotten what one has learned in school.***  
->> 　　　　　　　　　　　　　　　　　　—Albert Einstein
+>> 　　　　　　　　　　　　　　　　　　——Albert Einstein
 >
 > ![Book](https://ejres-1253687085.picgz.myqcloud.com/img/10step_learning/sw_softskill_book.png)
 

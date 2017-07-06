@@ -2,7 +2,7 @@
 layout: post
 title: "Difference between 'protected' and 'default' Java access modifiers"
 date: 2017-05-13 21:30:00 +08:00
-categories: IT Java
+categories: Java IT
 tags: java ocp
 ---
 

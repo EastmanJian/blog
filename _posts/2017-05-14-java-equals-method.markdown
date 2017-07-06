@@ -2,7 +2,7 @@
 layout: post
 title: "equals() method v.s. == in Java"
 date: 2017-05-14 18:44:00 +08:00
-categories: IT Java
+categories: Java IT
 tags: java ocp
 ---
 

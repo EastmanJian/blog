@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-05-01 21:02:48 -0700
-categories: Jekyll update
+categories: Jekyll Upgrade
 tags:  Jekyll blog
 author: Jekyll
 ---
