@@ -43,6 +43,12 @@ disqus_shortname: #eastmanjian
 changyan_appid: cyt67wD0b
 changyan_appkey: prod_2ae49e77a11e91f985e24b8cc1ed5a58
 
+# Reward 
+# put the 2D barcode image url below.
+alipay_barcode: "https://ejres-1253687085.picgz.myqcloud.com/img/barcode/alipay_s.jpg"
+wechat_barcode: "https://ejres-1253687085.picgz.myqcloud.com/img/barcode/wechat_s.png"
+thanks_words: "Thanks for your reward! 如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！"
+
 # Site Search
 # Support Baidu 站内搜索, input the sid below (you can get the sid from the site search script after you registered baidu 站内搜索)
 baidu_znsv_sid: #10213920283290971852
