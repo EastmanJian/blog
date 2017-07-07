@@ -32,7 +32,7 @@ I chose [Bandwagon](https://bandwagonhost.com/) because it has a high cost-perfo
 The virtual servers are located in several cities of US. I selected the lowest price scheme, which costs $19.99 per year. (折算RMB大约11元/月, 吃个饭盒的钱)
 ![VPS Scheme](https://ejres-1253687085.picgz.myqcloud.com/img/network/VPS19dollar.jpg)  
 
-The machine is located in Los Angeles. Wow, 10GB SSD and 512 RAM, 10GB bandwidth per month. It should be no problem watch a few dozens of Videos from YouTube. And you should be able to more with the machine than just crossing the GFW. 如果你喜欢折腾的话，还能用这机器搬弄好多东东, 11元/月的价值远不止于科学上网。
+The machine is located in Los Angeles. Wow, 10GB SSD and 512 RAM, 10GB bandwidth per month. It should be no problem watch a few dozens of Videos from YouTube. And you should be able to do more with the machine than just crossing the GFW. 如果你喜欢折腾的话，还能用这机器搬弄好多东东, 11元/月的价值远不止于科学上网。
 
 
 ### 2. Install OS on the VPS 

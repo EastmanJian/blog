@@ -11,8 +11,13 @@ USERNAME=$(grep 'vps_ssh_username:' _config.yml | awk 'BEGIN{FS=":"}{print $2}' 
 DES=$(grep 'vps_htdocs_root:' _config.yml | awk 'BEGIN{FS=":"}{print $2}' | sed 's/^ *//g')
 BASEURL=$(grep 'baseurl:' _config.yml | awk 'BEGIN{FS="\""}{print $2}')
 
+#deploy resources to cloud
+./cos_sync.sh
+
 #build blog _site files
 jekyll build
+
+
 
 #sync _site files or images to VPS
 if [ "$1" = "--resources" -o "$1" = "-r" ] ; then
