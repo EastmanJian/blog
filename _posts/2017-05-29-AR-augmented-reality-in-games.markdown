@@ -41,6 +41,7 @@ What amazing effects in some games using AR technology! Let's go and see.
 
 <video width="100%" height="" controls="">
 <source src="https://ejres-1253687085.cosgz.myqcloud.com/mov/ar/YingHua-m-H264.mp4">
+<source src="https://eastmanjian.cn/resources/mov/ar/YingHua-m-H264.mp4">
 </video>
 
 
