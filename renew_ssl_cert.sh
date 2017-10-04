@@ -16,3 +16,14 @@
 #make the lighttpd pem file
 cp /etc/letsencrypt/live/eastmanjian.cn/privkey.pem /etc/lighttpd/eastman_host.pem
 cat /etc/letsencrypt/live/eastmanjian.cn/cert.pem >> /etc/lighttpd/eastman_host.pem
+
+#install the cert into glassfish server
+cd /srv/glassfish4/glassfish/domains/domain1/config
+keytool -delete -alias LetsEncrypt -keystore cacerts.jks -storepass $(echo "c2N1dHNjdXQK" | openssl base64 -d)
+keytool -delete -alias letsencryptim -keystore cacerts.jks -storepass $(echo "c2N1dHNjdXQK" | openssl base64 -d)
+keytool -delete -alias s1as -keystore keystore.jks -storepass $(echo "c2N1dHNjdXQK" | openssl base64 -d)
+keytool -import -v -trustcacerts -alias LetsEncrypt -file /etc/letsencrypt/live/eastmanjian.cn/fullchain.pem -keystore cacerts.jks -storepass $(echo "c2N1dHNjdXQK" | openssl base64 -d)
+keytool -import -v -trustcacerts -alias letsencryptim -file /etc/letsencrypt/live/eastmanjian.cn/chain.pem -keystore cacerts.jks -storepass $(echo "c2N1dHNjdXQK" | openssl base64 -d)
+openssl pkcs12 -export -inkey /etc/letsencrypt/live/eastmanjian.cn/privkey.pem -in /etc/letsencrypt/live/eastmanjian.cn/fullchain.pem -name s1as -out test.p12 -passout pass:$(echo "c2N1dHNjdXQK" | openssl base64 -d)
+keytool -importkeystore -srckeystore test.p12 -srcstoretype pkcs12 -destkeystore keystore.jks -destkeypass $(echo "c2N1dHNjdXQK" | openssl base64 -d) -srckeypass $(echo "c2N1dHNjdXQK" | openssl base64 -d)
+
