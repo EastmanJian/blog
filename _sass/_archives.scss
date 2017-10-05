@@ -1,0 +1,13 @@
+.page[archives] {
+    .left {
+	    .fa-search {
+            color: #9e9d9d;
+        }
+	    input.search {
+		    width: 60%;
+			min-width: 150px;
+			border-radius: 8px;
+			padding: 8px;
+        }
+    }
+}

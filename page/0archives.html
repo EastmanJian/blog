@@ -9,11 +9,12 @@ type: page
 <!-- <h1>Archive of posts with {{ page.type }} '{{ page.title }}'</h1> -->
 
 
-<div class="page clearfix">
-    <div class="left">
+<div class="page clearfix" archives="">
+    <div id="articles" class="left">
         <h1>{{page.title}}</h1>
         <hr>
-        <ul>
+		<i class="fa fa-search fa-2" aria-hidden="true"></i>&nbsp;<input class="search" placeholder="Search"/>
+        <ul class="list">
           {% for post in site.posts %}
 
             {% unless post.next %}
@@ -27,7 +28,7 @@ type: page
             {% endunless %}
 
             <li>
-                <time>
+                <time class="time">
                 {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
                 </time>
                 <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -66,4 +67,12 @@ type: page
         </div>
     </div>
 </div>
+
 <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+
+<!-- listjs plugin -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+<!-- this page js -->
+<script src="{{ "/js/archivesPage.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+
