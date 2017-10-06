@@ -13,7 +13,7 @@ tags: W3C GFW study
 
 [w3schools](https://www.w3schools.com) is a famous learning website for W3 standards and web technologies.  
 ![w3schools](https://ejres-1253687085.picgz.myqcloud.com/img/network/w3schools.png)  
-被誉为编程入门，不得不上的5个必备网站之一。  
+一家专门Web开发的学习网站，被誉为编程入门，不得不上的5个必备网站之一。讲佢嘅特点喺：少废话、全干货，真喺一嘀都冇错。
 要命嘅喺，咁优秀嘅学习资源在国内好多地区居然被墙, 真喺好无奈。  
 ![GWF blocks w3schools](https://ejres-1253687085.picgz.myqcloud.com/img/network/w3school_route.png)  
 无奈之余，look for some alternatives. 

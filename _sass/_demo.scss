@@ -6,8 +6,14 @@
             transition: 0.5s ease;
             &:hover {
                 color: #223253;
-                background-color: #f4efeb;
+                background-color: #c6b2ab; //#f4efeb
             }
+        }
+        .columnSelect {
+            font-weight: bold;
+        }
+        .ui-accordion-content {
+            padding: 1em 1em;
         }
         .grid {
             margin: 0 auto;
