@@ -14,6 +14,18 @@ $(document).ready(function() {
     $.getJSON("../json/demo_list.json", renderDemoList);
 });
 
+/**
+ * Escape HTML special characters, returns the escaped HTML string.
+ * @param string
+ * @returns {string}
+ */
+function escapeHTML( string )
+{
+    var pre = document.createElement('pre');
+    var text = document.createTextNode( string );
+    pre.appendChild(text);
+    return pre.innerHTML;
+}
 
 /**
  * callback function after demo data is loaded, dynamically generate the content, render the UI.
@@ -25,7 +37,7 @@ function renderDemoList(result) {
             + "PrototypeList' class='display compact' cellspacing='0' width='100%'></table></div></div>";
         $("#prototypes").append(html);
     }
-    
+
     //add an overall section with all prototypes data
     var html = "<div><h3>All Prototypes</h3><div><table id='allPrototypes' "
         + "class='display compact' cellspacing='0' width='100%'></table></div></div>";
@@ -61,10 +73,29 @@ function renderDemoList(result) {
         }
     });
 
+    //construct table data arrays from the source json
+    var tableData = [];
+    var link;
+    for (var i = 0; i < result.prototypes.length; i++) {
+        tableData[i] = [];
+        for (var j = 0; j < result.prototypes[i].list.length; j++) {
+            tableData[i][j] = [];
+            tableData[i][j][0] = result.prototypes[i].list[j][0];
+            link = result.prototypes[i].list[j][2];
+            if (result.prototypes[i].list[j][3] == "TIY") {
+                //using TIY function to show the prototype
+                link = "https://eastmanjian.cn/js_demo/tiy.jsp?sample=" + encodeURIComponent(link);
+                link = link.replace("sample=https%3A%2F%2Feastmanjian.cn%2Fjs_demo%2F", "sample=");
+            }
+            //construct the 'a' tag
+            tableData[i][j][1] = '<A HREF="' + link + '">' + escapeHTML(result.prototypes[i].list[j][1]) + '</A>';
+        }
+    }
+
     //render datatables for each prototype section
     for (var i = 0; i < result.prototypes.length; i++) {
         $('#tech' + i + 'PrototypeList').DataTable({
-            data: result.prototypes[i].list,
+            data: tableData[i],
             columns: [
                 {title: "Category",  "orderable": false},
                 {title: "Example"}
@@ -87,12 +118,12 @@ function renderDemoList(result) {
             }
         });
     }
-    
+
     //construct the all prototype data array
-    var allPrototypeList = null;
+    var allPrototypeList;
     var tempList;
     for (var i = 0; i < result.prototypes.length; i++) {
-        tempList = result.prototypes[i].list;
+        tempList = tableData[i];
         for (var j = 0; j < tempList.length; j++) {
             tempList[j].unshift(result.prototypes[i].tech);
         }
