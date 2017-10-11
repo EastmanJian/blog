@@ -97,7 +97,7 @@ function renderDemoList(result) {
         $('#tech' + i + 'PrototypeList').DataTable({
             data: tableData[i],
             columns: [
-                {title: "Category",  "orderable": false},
+                {title: "Categories",  "orderable": false},
                 {title: "Example"}
             ],
             initComplete: function () { //generate column filter
@@ -120,18 +120,17 @@ function renderDemoList(result) {
     }
 
     //construct the all prototype data array
-    var allPrototypeList;
+    var allPrototypeList = [];
     var tempList;
     for (var i = 0; i < result.prototypes.length; i++) {
-        tempList = tableData[i];
-        for (var j = 0; j < tempList.length; j++) {
+        tempList = [];
+        for (var j = 0; j < tableData[i].length; j++) {
+            tempList[j] = tableData[i][j].slice(); //clone the array
+        }
+        for (var j = 0; j < tempList.length; j++) { //add technology column as the 1st column
             tempList[j].unshift(result.prototypes[i].tech);
         }
-        if (allPrototypeList == null) {
-            allPrototypeList = tempList;
-        } else {
-            allPrototypeList = allPrototypeList.concat(tempList);
-        }
+        allPrototypeList = allPrototypeList.concat(tempList);
     }
 
     //render datatables for all-prototype section
