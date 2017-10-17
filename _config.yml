@@ -17,8 +17,15 @@ permalink: /:year/:month/:day/:title/
 # Follow settings are for deploying the blog to VPS. Used by the deployment shell scripts.
 # The client public key should be placed in the .ssh/authorized_keys for connection establishment.
 #   vps_htdocs_root - the hyper text document root of the web server in the VPS
-vps_host:         eastmanjian.cn
-vps_ssh_port:     28411
+##     Bandwagon configuration:
+##       vps_host:         eastmanjian.cn
+##       vps_ssh_port:     28411
+##       vps_ssh_username: eastman
+##       vps_htdocs_root:  /srv/www/htdocs
+##       vps_jekyll_site:  /home/eastman/eastman_blog
+##     Tencent qcloud configuration:
+vps_host:         111.230.132.26
+vps_ssh_port:     22
 vps_ssh_username: eastman
 vps_htdocs_root:  /srv/www/htdocs
 vps_jekyll_site:  /home/eastman/eastman_blog
