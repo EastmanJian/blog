@@ -25,7 +25,7 @@ permalink: /:year/:month/:day/:title/
 ##       vps_jekyll_site:  /home/eastman/eastman_blog
 ##     Tencent qcloud configuration:
 vps_host:         111.230.132.26
-vps_ssh_port:     22
+vps_ssh_port:     28411
 vps_ssh_username: eastman
 vps_htdocs_root:  /srv/www/htdocs
 vps_jekyll_site:  /home/eastman/eastman_blog

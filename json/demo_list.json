@@ -238,7 +238,17 @@
         ["ES5 new features",  "Listing properties - getOwnPropertyNames(), keys()",                      "https://eastmanjian.cn/js_demo/es5/listing_properties.html",                      "TIY"],
         ["ES5 new features",  "Protecting Objects - preventExtensions(), seal(), freeze()",              "https://eastmanjian.cn/js_demo/es5/protecting_ojects.html",                       "TIY"],
         ["ES5 new features",  "Function.prototype.bind(thisValue, arg1?, ..., argN?)",                   "https://eastmanjian.cn/js_demo/es5/function_prototype_bind.html",                 "TIY"],
-        ["ES5 new features",  "Array methods: isArray() filter() forEach() indexOf(), map() reduce()..", "https://eastmanjian.cn/js_demo/es5/new_array_methods.html",                       "TIY"]
+        ["ES5 new features",  "Array methods: isArray() filter() forEach() indexOf(), map() reduce()..", "https://eastmanjian.cn/js_demo/es5/new_array_methods.html",                       "TIY"],
+        ["ES6 new features",  "RegExp sticky matching, lastIndex",                                       "https://eastmanjian.cn/js_demo/es6/regexp_sticky.html",                           "TIY"],
+        ["ES6 new features",  "destructuring Arrays or object assignment in variables",                  "https://eastmanjian.cn/js_demo/es6/destructuring_assignment.html",                "TIY"],
+        ["ES6 new features",  "Iterator and iterable protocol & For-Of Operator",                        "https://eastmanjian.cn/js_demo/es6/iterable_protocol.html",                       "TIY"],
+        ["ES6 new features",  "Generator Function, Direct Use",                                          "https://eastmanjian.cn/js_demo/es6/generator.html",                               "TIY"],
+        ["ES6 new features",  "a proxy with get() trap",                                                 "https://eastmanjian.cn/js_demo/es6/proxy.html",                                   "TIY"],
+        ["ES6 new features",  "Reflect.defineProperty(), Reflect.get(obj, property, this)",              "https://eastmanjian.cn/js_demo/es6/reflect.html",                                 "TIY"],
+        ["ES6 new features",  "Promise API, resolve(), then()",                                          "https://eastmanjian.cn/js_demo/es6/promise_resolve_then.html",                    "TIY"],
+        ["ES6 new features",  "Combine one or more promises into new promises, Promise.all()",           "https://eastmanjian.cn/js_demo/es6/promise_all.html",                             "TIY"],
+        ["ES6 new features",  "Promise.race() - race between Promises and see which one finishes first", "https://eastmanjian.cn/js_demo/es6/promise_race.html",                            "TIY"],
+        ["ES6 new features",  "Promise pattern, using Promise API in AJAX, then()",                      "https://eastmanjian.cn/js_demo/tiy.jsp"                                                ]
       ]
     },
     {
@@ -316,6 +326,21 @@
         ["Plugin",            "DataTables plugin, column filter",                                                "https://eastmanjian.cn/js_demo/jq/plugin/datatable/column_filter.html",          "TIY"],
         ["Plugin",            "DataTables plugin, filter specific column",                                       "https://eastmanjian.cn/js_demo/jq/plugin/datatable/column_filter_specific.html", "TIY"],
         ["Demo",              "jQuery UI Accordion, datatable plugin, jQuery AJAX read json data",               "https://eastmanjian.cn/js_demo/jq/demo/accordion_datatable.html",                "TIY"]
+      ]
+    },
+    {
+      "tech": "Bootstrap",
+      "list": [
+        ["Layout",            "container - fixed width",                                                         "https://eastmanjian.cn/bs_demo/container_fixed_width.html"                            ],
+        ["Layout",            "container-fluid - full width",                                                    "https://eastmanjian.cn/bs_demo/container_fluid.html"                                  ],
+        ["Layout",            "Grids - equal and unequal columns",                                               "https://eastmanjian.cn/bs_demo/grids_equal_unequal_columns.html"                      ],
+        ["Content",           "typography in Bootstrap3",                                                        "https://eastmanjian.cn/bs_demo/typography_bootstrap3.html"                            ],
+        ["Content",           "typography in Bootstrap4",                                                        "https://eastmanjian.cn/bs_demo/typography_bootstrap4.html"                            ],
+        ["Content",           "table in Bootstrap3 - striped rows, border, contextual classes, responsive",      "https://eastmanjian.cn/bs_demo/table_bootstrap3.html"                                 ],
+        ["Content",           "table in Bootstrap4 - dark, striped rows, border, contextual, responsive",        "https://eastmanjian.cn/bs_demo/table_bootstrap4.html"                                 ],
+        ["Content",           "image in Bootstrap3 - rounded corner, circle, thumbnail",                         "https://eastmanjian.cn/bs_demo/image_bootstrap3.html"                                 ],
+        ["Content",           "image in Bootstrap4 - rounded corner, circle, thumbnail",                         "https://eastmanjian.cn/bs_demo/image_bootstrap4.html"                                 ],
+        ["Components",        "Jumbotron",                                                                       "https://eastmanjian.cn/bs_demo/jumbotron.html"                                        ]
       ]
     }
   ],
