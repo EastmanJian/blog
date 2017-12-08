@@ -154,7 +154,8 @@
         ["CSS3 - Multiple Columns",   "Mutiple columns",                                          "https://eastmanjian.github.io/HTML_CSS_Demo/css3_multi_columns.html"                   ,"TIY"],
         ["CSS3 - User Interface",     "UI - resizing",                                            "https://eastmanjian.github.io/HTML_CSS_Demo/css3_resize.html"                          ,"TIY"],
         ["CSS3 - User Interface",     "UI - outline offset",                                      "https://eastmanjian.github.io/HTML_CSS_Demo/css3_outline_offset.html"                  ,"TIY"],
-        ["CSS3 - User Interface",     "UI - box sizing",                                          "https://eastmanjian.github.io/HTML_CSS_Demo/css3_box_sizing.html"                      ,"TIY"]
+        ["CSS3 - User Interface",     "UI - box sizing",                                          "https://eastmanjian.github.io/HTML_CSS_Demo/css3_box_sizing.html"                      ,"TIY"],
+        ["SCSS (SASS)",               "Trace SCSS source by browser debug tool",                  "https://eastmanjian.github.io/HTML_CSS_Demo/scss_f12_debug.html"                             ]
       ]
     },
     {
@@ -243,6 +244,7 @@
         ["ES6 new features",  "destructuring Arrays or object assignment in variables",                  "https://eastmanjian.cn/js_demo/es6/destructuring_assignment.html",                "TIY"],
         ["ES6 new features",  "Iterator and iterable protocol & For-Of Operator",                        "https://eastmanjian.cn/js_demo/es6/iterable_protocol.html",                       "TIY"],
         ["ES6 new features",  "Generator Function, Direct Use",                                          "https://eastmanjian.cn/js_demo/es6/generator.html",                               "TIY"],
+        ["ES6 new features",  "Object method: assign()",                                                 "https://eastmanjian.cn/js_demo/es6/object_assign.html",                           "TIY"],
         ["ES6 new features",  "a proxy with get() trap",                                                 "https://eastmanjian.cn/js_demo/es6/proxy.html",                                   "TIY"],
         ["ES6 new features",  "Reflect.defineProperty(), Reflect.get(obj, property, this)",              "https://eastmanjian.cn/js_demo/es6/reflect.html",                                 "TIY"],
         ["ES6 new features",  "Promise API, resolve(), then()",                                          "https://eastmanjian.cn/js_demo/es6/promise_resolve_then.html",                    "TIY"],
@@ -331,19 +333,107 @@
     {
       "tech": "Bootstrap",
       "list": [
-        ["Layout",            "container - fixed width",                                                         "https://eastmanjian.cn/bs_demo/container_fixed_width.html"                            ],
-        ["Layout",            "container-fluid - full width",                                                    "https://eastmanjian.cn/bs_demo/container_fluid.html"                                  ],
-        ["Layout",            "Grids - equal and unequal columns",                                               "https://eastmanjian.cn/bs_demo/grids_equal_unequal_columns.html"                      ],
-        ["Content",           "typography in Bootstrap3",                                                        "https://eastmanjian.cn/bs_demo/typography_bootstrap3.html"                            ],
-        ["Content",           "typography in Bootstrap4",                                                        "https://eastmanjian.cn/bs_demo/typography_bootstrap4.html"                            ],
-        ["Content",           "table in Bootstrap3 - striped rows, border, contextual classes, responsive",      "https://eastmanjian.cn/bs_demo/table_bootstrap3.html"                                 ],
-        ["Content",           "table in Bootstrap4 - dark, striped rows, border, contextual, responsive",        "https://eastmanjian.cn/bs_demo/table_bootstrap4.html"                                 ],
-        ["Content",           "image in Bootstrap3 - rounded corner, circle, thumbnail",                         "https://eastmanjian.cn/bs_demo/image_bootstrap3.html"                                 ],
-        ["Content",           "image in Bootstrap4 - rounded corner, circle, thumbnail",                         "https://eastmanjian.cn/bs_demo/image_bootstrap4.html"                                 ],
-        ["Components",        "Jumbotron",                                                                       "https://eastmanjian.cn/bs_demo/jumbotron.html"                                        ]
+        ["Layout",      "container - fixed width",                                                         "https://eastmanjian.cn/bs_demo/container_fixed_width.html"                            ],
+        ["Layout",      "container-fluid - full width",                                                    "https://eastmanjian.cn/bs_demo/container_fluid.html"                                  ],
+        ["Layout",      "Grids - equal and unequal columns",                                               "https://eastmanjian.cn/bs_demo/grids_equal_unequal_columns.html"                      ],
+        ["Layout",      "Grids - stacked to horizontal",                                                   "https://eastmanjian.cn/bs_demo/grids_stacked_to_horizontal.html"                      ],
+        ["Layout",      "Grids - Mixed: Mobile, Tablet And Desktop",                                       "https://eastmanjian.cn/bs_demo/grids_mixed_mobile_desktop.html"                       ],
+        ["Layout",      "Grids - clearfix",                                                                "https://eastmanjian.cn/bs_demo/grids_clearfix.html"                                   ],
+        ["Layout",      "Grids - offsetting columns",                                                      "https://eastmanjian.cn/bs_demo/grids_offsetting_columns.html"                         ],
+        ["Layout",      "Grids - push and pull",                                                           "https://eastmanjian.cn/bs_demo/grids_push_pull.html"                                  ],
+        ["Content",     "typography in Bootstrap3",                                                        "https://eastmanjian.cn/bs_demo/typography_bootstrap3.html",                      "TIY"],
+        ["Content",     "typography in Bootstrap4",                                                        "https://eastmanjian.cn/bs_demo/typography_bootstrap4.html",                      "TIY"],
+        ["Content",     "table in Bootstrap3 - striped rows, border, contextual classes, responsive",      "https://eastmanjian.cn/bs_demo/table_bootstrap3.html",                           "TIY"],
+        ["Content",     "table in Bootstrap4 - dark, striped rows, border, contextual, responsive",        "https://eastmanjian.cn/bs_demo/table_bootstrap4.html",                           "TIY"],
+        ["Content",     "image in Bootstrap3 - rounded corner, circle, thumbnail",                         "https://eastmanjian.cn/bs_demo/image_bootstrap3.html"                                 ],
+        ["Content",     "image in Bootstrap4 - rounded corner, circle, thumbnail",                         "https://eastmanjian.cn/bs_demo/image_bootstrap4.html"                                 ],
+        ["Components",  "Jumbotron",                                                                       "https://eastmanjian.cn/bs_demo/jumbotron.html",                                  "TIY"],
+        ["Components",  "Well",                                                                            "https://eastmanjian.cn/bs_demo/well.html",                                       "TIY"],
+        ["Components",  "Card",                                                                            "https://eastmanjian.cn/bs_demo/card.html"                                             ],
+        ["Components",  "Alerts in Bootstrap3 - Dismissing with javascript plugin",                        "https://eastmanjian.cn/bs_demo/alert_bootstrap3.html",                           "TIY"],
+        ["Components",  "Alerts in Bootstrap4 - Dismissing with javascript plugin",                        "https://eastmanjian.cn/bs_demo/alert_bootstrap4.html",                           "TIY"],
+        ["Components",  "Buttons - style, tags, size, block level, states",                                "https://eastmanjian.cn/bs_demo/button.html",                                     "TIY"],
+        ["Components",  "Button Groups - size, vertical, full width, nesting drop down",                   "https://eastmanjian.cn/bs_demo/button_groups.html",                              "TIY"],
+        ["Components",  "Badges - size, in button, contextual variations, pill, link",                     "https://eastmanjian.cn/bs_demo/badges.html",                                     "TIY"],
+        ["Components",  "Progress bar in Bootstrap3 - label, colored, striped, animated, multiple",        "https://eastmanjian.cn/bs_demo/progress_bar_bs3.html",                           "TIY"],
+        ["Components",  "Progress bar in Bootstrap4 - label, colored, striped, animated, multiple",        "https://eastmanjian.cn/bs_demo/progress_bar_bs4.html",                           "TIY"],
+        ["Components",  "Pagination in Bootstrap3 - icon, disable, active, sizing, alignment",             "https://eastmanjian.cn/bs_demo/pagination_bs3.html",                             "TIY"],
+        ["Components",  "Pagination in Bootstrap4 - icon, disable, active, sizing, breadcrumbs",           "https://eastmanjian.cn/bs_demo/pagination_bs4.html",                             "TIY"],
+        ["Components",  "List group in Bootstrap3 - with badges, linked item, active, disabled, color",    "https://eastmanjian.cn/bs_demo/list_group_bs3.html",                             "TIY"],
+        ["Components",  "List group in Bootstrap4 - with badges, linked item, active, disabled, color",    "https://eastmanjian.cn/bs_demo/list_group_bs4.html",                             "TIY"],
+        ["Components",  "Panel - BootStrap 3 only, use card in BootStrap 4",                               "https://eastmanjian.cn/bs_demo/panel_bs3.html",                                  "TIY"],
+        ["Components",  "Dropdown in Bootstrap3 - divider, header, disabled item, upward",                 "https://eastmanjian.cn/bs_demo/dropdown_bs3.html",                               "TIY"],
+        ["Components",  "Dropdown in Bootstrap4 - divider, header, disabled item, upward",                 "https://eastmanjian.cn/bs_demo/dropdown_bs4.html",                               "TIY"],
+        ["Components",  "Collapse in Bootstrap3 - divider, header, disabled item, upward",                 "https://eastmanjian.cn/bs_demo/collapse_bs3.html",                               "TIY"],
+        ["Components",  "Collapse in Bootstrap4 - divider, header, disabled item, upward",                 "https://eastmanjian.cn/bs_demo/collapse_bs4.html",                               "TIY"],
+        ["Components",  "Navs (Tabls and Pills) in Bootstrap3 - with content, dropdown",                   "https://eastmanjian.cn/bs_demo/tabs_pills_bs3.html"                                   ],
+        ["Components",  "Navs (Tabls and Pills) in Bootstrap4 - with content, dropdown",                   "https://eastmanjian.cn/bs_demo/tabs_pills_bs4.html"                                   ],
+        ["Components",  "Navbar in Bootstrap3 - inverted, fixed top, collapsible, with form, align",       "https://eastmanjian.cn/bs_demo/navbar_bs3.html"                                       ],
+        ["Components",  "Navbar in Bootstrap4 - inverted, fixed top, collapsible, with form, align",       "https://eastmanjian.cn/bs_demo/navbar_bs4.html"                                       ],
+        ["Components",  "Form in Bootstrap3 - vertical, inline, horizontal",                               "https://eastmanjian.cn/bs_demo/form_bs3.html"                                         ],
+        ["Components",  "Form in Bootstrap4 - vertical, inline, horizontal, grid",                         "https://eastmanjian.cn/bs_demo/form_bs4.html"                                         ],
+        ["Components",  "Input Group (Bootstrap4) - basic, sizing, checkbox, radio, addon, dropdown",      "https://eastmanjian.cn/bs_demo/input_group.html"                                      ],
+        ["Components",  "Carousel in Bootstrap3",                                                          "https://eastmanjian.cn/bs_demo/carousel_bs3.html"                                     ],
+        ["Components",  "Carousel in Bootstrap4",                                                          "https://eastmanjian.cn/bs_demo/carousel_bs4.html"                                     ],
+        ["Components",  "Modal in Bootstrap3",                                                             "https://eastmanjian.cn/bs_demo/modal_bs3.html",                                  "TIY"],
+        ["Components",  "Modal in Bootstrap4",                                                             "https://eastmanjian.cn/bs_demo/modal_bs4.html",                                  "TIY"],
+        ["Components",  "Tooltip - top, bottom, left, right, with HTML",                                   "https://eastmanjian.cn/bs_demo/tooltip.html",                                    "TIY"],
+        ["Components",  "Popover - position, dismissal, hover",                                            "https://eastmanjian.cn/bs_demo/popover.html",                                    "TIY"],
+        ["Components",  "Scrollspy in Bootstrap3 - navbar",                                                "https://eastmanjian.cn/bs_demo/scrollspy_bs3_nav.html",                          "TIY"],
+        ["Components",  "Scrollspy in Bootstrap3 - vertical menu",                                         "https://eastmanjian.cn/bs_demo/scrollspy_bs3_vertical.html",                     "TIY"],
+        ["Components",  "Scrollspy in Bootstrap4 - navbar",                                                "https://eastmanjian.cn/bs_demo/scrollspy_bs4_listgroup.html",                    "TIY"],
+        ["Components",  "Scrollspy in Bootstrap4 - nested navbar",                                         "https://eastmanjian.cn/bs_demo/scrollspy_bs4_nav.html",                          "TIY"],
+        ["Components",  "Scrollspy in Bootstrap4 - list group",                                            "https://eastmanjian.cn/bs_demo/scrollspy_bs4_nav_nested.html",                   "TIY"],
+        ["Utilities",   "Clearfix - clear floated content within a container",                             "https://eastmanjian.cn/bs_demo/clearfix.html",                                   "TIY"],
+        ["Utilities",   "Flex - inline, direction, justify, align, auto margin, wrap, order",              "https://eastmanjian.cn/bs_demo/flex.html",                                       "TIY"],
+        ["Utilities",   "Position - sticky top in Bootstrap4 (i.e. Affixed in bootstrap3)",                "https://eastmanjian.cn/bs_demo/sticky_top.html"                                       ],
+        ["Utilities",   "Text - truncate",                                                                 "https://eastmanjian.cn/bs_demo/text_truncate.html",                              "TIY"]
       ]
+    },
+    {
+      "tech": "ReactJS",
+      "list": [
+        ["Demo",      "Tic-Tac-Toe (Official Tutorial) - Component, Props, JSX, State, Event, List",     "https://eastmanjian.cn/tic-tac-toe/"                          ],
+        ["Demo",      "a new React SPA created by create-react-app node.js CLI tool",                    "https://eastmanjian.cn/react_demo/init_app"                   ],
+        ["Context",   "Parent-Child Coupling -  React Router - basic",                                   "https://eastmanjian.cn/react_demo/router_basic"               ],
+        ["JSX",       "JavaScript Expression in curly braces",                                           "https://eastmanjian.cn/react_demo/jsx_js_expression"          ],
+        ["Element",   "render a React element into the DOM, immutable, updates what’s necessary",        "https://eastmanjian.cn/react_demo"                            ],
+        ["Component", "declare a component using component function, props",                             "https://eastmanjian.cn/react_demo/component_function"         ],
+        ["Component", "declare a component using class, props",                                          "https://eastmanjian.cn/react_demo/component_class"            ],
+        ["Component", "conditional rendering depending on the state of the application, login, logout",  "https://eastmanjian.cn/react_demo/conditional_rendering"      ],
+        ["Component", "Prevent component rendering by returning null",                                   "https://eastmanjian.cn/react_demo/prevent_rendering"          ],
+        ["State",     "Clock, setState(), lifecycle hook, componentDidMount(), componentWillUnmount()",  "https://eastmanjian.cn/react_demo/clock"                      ],
+        ["State",     "Design Rule - Lifting State Up - Temperature Calculator",                         "https://eastmanjian.cn/react_demo/lift_state_up"              ],
+        ["Event",     "Event handler in a class component, state, Toggle, style, bind(this)",            "https://eastmanjian.cn/react_demo/toggle"                     ],
+        ["List",      "List, key, map()",                                                                "https://eastmanjian.cn/react_demo/list_key"                   ],
+        ["Form",      "Controlled Component - a form with text input",                                   "https://eastmanjian.cn/react_demo/form_input"                 ],
+        ["Form",      "Controlled Component - a form with textarea",                                     "https://eastmanjian.cn/react_demo/form_textarea"              ],
+        ["Form",      "Controlled Component - a form with select dropdown",                              "https://eastmanjian.cn/react_demo/form_select"                ],
+        ["Form",      "Controlled Component - a form with multiple input",                               "https://eastmanjian.cn/react_demo/form_multi_input"           ],
+        ["Form",      "Prevent user changing the data in a form input, and release",                     "https://eastmanjian.cn/react_demo/form_prevent_input"         ],
+        ["Design",    "Using composition instead of inheritance, a Dialog and a SignUpDialog",           "https://eastmanjian.cn/react_demo/composition"                ],
+        ["Design",    "A Filterable Product Table App demonstrate the React Design Process",             "https://eastmanjian.cn/react_demo/thinking_in_react"          ]
+      ]  
+    },
+    {
+      "tech": "Spring",
+      "list": [
+        ["MVC",       "Basic - DispatcherServlet, InternalResourceViewResolver, BeanNameViewResolver",   "https://eastmanjian.cn/spring_4x_mvc_demo/hellospring.do"     ],
+        ["MVC",       "Form - TagLib, Data binding, ModelAndView, @ModelAttribute",                      "https://eastmanjian.cn/spring_4x_mvc_form_demo/student"       ],
+        ["MVC",       "Page Redirect, Access static pages or resources",                                 "https://eastmanjian.cn/spring_4x_mvc_redirect_demo/index"     ],
+        ["MVC",       "Exception Handling, SimpleMappingExceptionResolver, @ExceptionHandler",           "https://eastmanjian.cn/spring_4x_mvc_exception_demo/student"  ]
+      ]  
+    },
+    {
+      "tech": "RESTful JAX-RS",
+      "list": [
+        ["Jersey",    "@Path, @GET, @Produces",                                                          "https://eastmanjian.cn/jersey_demo/webapi/myresource"         ],
+        ["Jersey",    "Specifying URI path parameter, @PathParam",                                       "https://eastmanjian.cn/jersey_demo/webapi/users/Endora"       ],
+        ["Jersey",    "URI path parameter with Regular Expression pattern, @PathParam",                  "https://eastmanjian.cn/jersey_demo/webapi/user/Violet"        ],
+        ["Jersey",    "@PUT, @POST, @DELETE, @Consumes",                                                 "https://eastmanjian.cn/jersey_demo/webapi/cache/message"      ]
+      ]  
     }
-  ],
+ ],
   "demos": [
 
   ]
