@@ -16,7 +16,7 @@
         ["Form",              "Form Attributes",                                                   "https://eastmanjian.github.io/HTML_CSS_Demo/html5_form_attributes.html"  , "TIY"],
         ["API",               "Geolocation - Get current location and show in GoogleMap/BaiduMap", "https://eastmanjian.github.io/HTML_CSS_Demo/html5_geolocation.html"      , "TIY"],
         ["API",               "Geolocation - Watch current location and show in a map",            "https://eastmanjian.github.io/HTML_CSS_Demo/html5_geolocation_watch.html", "TIY"],
-        ["API",               "Web Storage (localStorage vs sessionStorage)",                      "https://eastmanjian.github.io/HTML_CSS_Demo/html5_web_storage.html"      , "TIY"],
+        ["API",               "Web Storage (localStorage vs sessionStorage), counter example",     "https://eastmanjian.github.io/HTML_CSS_Demo/html5_web_storage.html"      , "TIY"],
         ["API",               "App Cache (Offline Application)",                                   "https://eastmanjian.github.io/HTML_CSS_Demo/html5_app_cache.html"        , "TIY"],
         ["API",               "Web Worker",                                                        "https://eastmanjian.github.io/HTML_CSS_Demo/html5_web_worker.html"              ],
         ["API",               "Server-Sent Event - sever push dates",                              "https://eastmanjian.cn/html5_demo/html5_server_sent_event.html"          , "TIY"],
@@ -427,10 +427,19 @@
     {
       "tech": "RESTful JAX-RS",
       "list": [
-        ["Jersey",    "@Path, @GET, @Produces",                                                          "https://eastmanjian.cn/jersey_demo/webapi/myresource"         ],
-        ["Jersey",    "Specifying URI path parameter, @PathParam",                                       "https://eastmanjian.cn/jersey_demo/webapi/users/Endora"       ],
-        ["Jersey",    "URI path parameter with Regular Expression pattern, @PathParam",                  "https://eastmanjian.cn/jersey_demo/webapi/user/Violet"        ],
-        ["Jersey",    "@PUT, @POST, @DELETE, @Consumes",                                                 "https://eastmanjian.cn/jersey_demo/webapi/cache/message"      ]
+        ["Jersey",    "@Path, @GET, @Produces",                                                          "https://eastmanjian.cn/jersey_demo/webapi/myresource"                   ],
+        ["Jersey",    "Specifying URI path parameter, @PathParam",                                       "https://eastmanjian.cn/jersey_demo/webapi/users/Endora"                 ],
+        ["Jersey",    "URI path parameter with Regular Expression pattern, @PathParam",                  "https://eastmanjian.cn/jersey_demo/webapi/user/Violet"                  ],
+        ["Jersey",    "@PUT, @POST, @DELETE, @Consumes, sub-resource",                                   "https://eastmanjian.cn/jersey_demo/webapi/cache/message"                ],
+        ["Jersey",    "multiple MIME type in @Produces",                                                 "https://eastmanjian.cn/jersey_demo/webapi/xmlOrJson"                    ],
+        ["Jersey",    "@Consumes, class level, method level, multiple MIME type",                        "https://eastmanjian.cn/jersey_demo/webapi/cachemsg"                     ],
+        ["Jersey",    "@QueryParam and @DefaultValue",                                                   "https://eastmanjian.cn/jersey_demo/webapi/querypara?step=3&min-m=false" ],
+        ["Jersey",    "@QueryParam with user defined parameter type (custom java type)",                 "https://eastmanjian.cn/jersey_demo/webapi/usrdefpara?step=3&min-m=false&min-color=red" ],
+        ["Jersey",    "using @Context to obtain a general map of query and path parameters",             "https://eastmanjian.cn/jersey_demo/webapi/paramap/val1/val2?step=3&min-m=false"        ],
+        ["Jersey",    "using @Context to obtain a general map of HTTP headers and cookies",              "https://eastmanjian.cn/jersey_demo/webapi/headermap"                    ],
+        ["Jersey",    "use @BeanParam to inject parameters into a bean, @MatrixParam, @HeaderParam",     "https://eastmanjian.cn/jersey_demo/webapi/beanparam/Eastman;m=ValM;n=ValN?q=135"       ],
+        ["Jersey",    "using JAXB approach via MOXy Module to output JSON format response",              "https://eastmanjian.cn/jersey_demo/webapi/jaxbjson"                     ],
+        ["Jersey",    "Jersey Demo Application WADL",                                                    "https://eastmanjian.cn/jersey_demo/webapi/application.wadl"             ]
       ]  
     }
  ],
