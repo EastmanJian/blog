@@ -44,11 +44,12 @@ dribbble_username:
 description_footer: I'm loved when I'm completely by myself alone. 粤ICP备17065020号. 
 
 # comments
-# three ways to comment, only choose one, put your comment system configurations here.
+# fore ways to comment, only choose one, put your comment system configurations here.
 duoshuo_shortname: #hygblog
 disqus_shortname: #eastmanjian
-changyan_appid: cyt67wD0b
-changyan_appkey: prod_2ae49e77a11e91f985e24b8cc1ed5a58
+changyan_appid: #cyt67wD0b
+changyan_appkey: #prod_2ae49e77a11e91f985e24b8cc1ed5a58
+delightalk_sitename: ejBlog
 
 # Reward 
 # put the 2D barcode image url below.
