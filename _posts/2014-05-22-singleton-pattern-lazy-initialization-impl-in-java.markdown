@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Singleton pattern lazy initialization implementation in Java"
-date: 2017-05-22 00:01:00 +08:00
+date: 2014-05-22 00:01:00 +08:00
 categories: IT Java
 tags: java ooad design pattern concurrency multi-thread
 ---

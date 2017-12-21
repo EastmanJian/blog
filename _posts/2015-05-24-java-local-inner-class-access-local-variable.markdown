@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java Local Inner Classes accessing Local Variable in higher Java version"
-date: 2017-05-24 13:20:00 +08:00
+date: 2015-05-24 13:20:00 +08:00
 categories: IT Java
 tags: java oo
 ---

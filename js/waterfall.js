@@ -14,12 +14,12 @@
      */
   var demoContent = [
     {
-      demo_link: 'https://codepen.io/haoyang/pen/jrvrQq',
-      img_link: 'https://ooo.0o0.ooo/2016/11/24/5836d81f48cd2.png',
-      code_link: 'https://codepen.io/haoyang/pen/jrvrQq',
-      title: 'Fisher-Yates 洗牌算法动画',
-      core_tech: 'JavaScript',
-      description: 'Fisher-Yates 洗牌算法动画。算法详情见 <a href ="https://gaohaoyang.github.io/2016/10/16/shuffle-algorithm/">这里</a>。'
+      demo_link: 'https://eastmanjian.cn/delightalk/pageJsTest.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/delightalk/delightalk-demo.jpg',
+      code_link: 'https://github.com/EastmanJian/delightalk',
+      title: 'Delightalk plugable commenting system',
+      core_tech: 'Redis JAX-RS Javascript',
+      description: 'A plugable commeting system. 评论平台, 方便嵌入到你的网站中。Communicate with back-end with RESTful API.'
     }, {
       demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
       img_link: 'https://ooo.0o0.ooo/2016/06/20/5768c1597d1fe.png',
@@ -144,25 +144,21 @@
  * @return {[type]} [description]
  */
 function contentInit(content) {
-  // var htmlArr = [];
-  // for (var i = 0; i < content.length; i++) {
-  //     htmlArr.push('<div class="grid-item">')
-  //     htmlArr.push('<a class="a-img" href="'+content[i].demo_link+'">')
-  //     htmlArr.push('<img src="'+content[i].img_link+'">')
-  //     htmlArr.push('</a>')
-  //     htmlArr.push('<h3 class="demo-title">')
-  //     htmlArr.push('<a href="'+content[i].demo_link+'">'+content[i].title+'</a>')
-  //     htmlArr.push('</h3>')
-  //     htmlArr.push('<p>主要技术：'+content[i].core_tech+'</p>')
-  //     htmlArr.push('<p>'+content[i].description)
-  //     htmlArr.push('<a href="'+content[i].code_link+'">源代码 <i class="fa fa-code" aria-hidden="true"></i></a>')
-  //     htmlArr.push('</p>')
-  //     htmlArr.push('</div>')
-  // }
-  // var htmlStr = htmlArr.join('')
   var htmlStr = ''
   for (var i = 0; i < content.length; i++) {
-    htmlStr += '<div class="grid-item">' + '   <a class="a-img" href="' + content[i].demo_link + '">' + '       <img src="' + content[i].img_link + '">' + '   </a>' + '   <h3 class="demo-title">' + '       <a href="' + content[i].demo_link + '">' + content[i].title + '</a>' + '   </h3>' + '   <p>主要技术：' + content[i].core_tech + '</p>' + '   <p>' + content[i].description + '       <a href="' + content[i].code_link + '">源代码 <i class="fa fa-code" aria-hidden="true"></i></a>' + '   </p>' + '</div>'
+    htmlStr += '<div class="grid-item">' 
+             + '   <a class="a-img" href="' + content[i].demo_link + '">' 
+             + '       <img src="' + content[i].img_link + '">' 
+             + '   </a>'
+             + '   <h3 class="demo-title">' 
+             + '       <a href="' + content[i].demo_link + '">' + content[i].title + '</a>'
+             + '   </h3>'
+             + '   <p><img class="badge" src="https://img.shields.io/badge/-Tech.-orange.svg" alt="Tech.:"/> ' + content[i].core_tech + '</p>'
+             + '   <p><i class="fa fa-edit fa-lg" aria-hidden="true"></i> ' + content[i].description
+             + '       <a href="' + content[i].code_link + '"><img class="badge" src="https://img.shields.io/badge/Source%20Code-Open-green.svg" alt="Source Code"/></a>'
+             + '   </p>'
+             + '</div>'
+    
   }
   var grid = document.querySelector('.grid')
   grid.insertAdjacentHTML('afterbegin', htmlStr)

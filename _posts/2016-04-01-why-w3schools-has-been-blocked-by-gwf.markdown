@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "www.w3schools.com has been blocked!!"
-date: 2017-04-01 09:58:00 +08:00
+date: 2016-04-01 09:58:00 +08:00
 categories: Network IT
 tags: W3C GFW study
 ---

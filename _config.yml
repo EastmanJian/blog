@@ -7,7 +7,7 @@
 
 # Site settings
 title: Eastman's Blog🍀
-brief-intro: The grass is no more greener on the other side. 
+brief-intro:  Risks nothing gains nothing.  
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://45.78.51.215" # the base hostname & protocol for your site
 
@@ -41,7 +41,8 @@ zhihu_username: 13631342825
 linkedIn_username: eastman-jian-0818129b
 dribbble_username:
 
-description_footer: I'm loved when I'm completely by myself alone. 粤ICP备17065020号. 
+description_footer:  ©2012-2017 Eastman Jian. 粤ICP备17065020号. 
+contact_me_desc: Your most attractive features are your heart and soul.
 
 # comments
 # fore ways to comment, only choose one, put your comment system configurations here.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding polymorphism and generics, generics wildcards"
-date: 2017-05-16 12:22:00 +08:00
+date: 2014-05-16 12:22:00 +08:00
 categories: IT Java
 tags: java ocp polymorphism generics
 ---

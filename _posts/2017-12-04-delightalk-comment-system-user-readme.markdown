@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "User Guide of DELIGHTALK Commenting System"
+title: "User Guide of DELIGHTALK Commenting System (Demo Available)"
 date: 2017-12-04 22:13:00 +08:00
 categories: App IT
 tags: RESTful Redis JavaScript CSS
@@ -14,6 +14,7 @@ About DELIGHTALK
 ----------------
 [![GitHub release](https://img.shields.io/badge/Release-1.0-blue.svg)](https://github.com/EastmanJian/delightalk/)  
 **Delightalk** is an open source web page commenting system. It's lightweight, fast, pluginable and extensible. And it can easily be pluged into your website.  
+Please find a demo web page [![Here](https://img.shields.io/badge/-here-green.svg)](https://eastmanjian.cn/delightalk/pageJsTest.html).  
 
 PS: Fed up with advertising and dirty injecting codes, I decided to build a comment system for my blog. Also, the service (@eastmanjian.cn) or codes (@github.com) are open to you.  
 

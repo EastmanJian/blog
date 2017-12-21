@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Summary of Java Collection Framework"
-date: 2017-05-30 19:39:00 +08:00
+date: 2014-05-30 19:39:00 +08:00
 categories: Java IT
 tags: java collection
 ---

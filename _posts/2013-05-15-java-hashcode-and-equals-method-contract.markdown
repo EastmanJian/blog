@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understand the hashCode() and equals() contract"
-date: 2017-05-15 11:22:00 +08:00
+date: 2013-05-15 11:22:00 +08:00
 categories: IT Java
 tags: java ocp
 ---

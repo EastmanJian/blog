@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Lambda Expression to replace Anonymous Inner Class in Java 1.8"
-date: 2017-05-25 10:44:00 +08:00
+date: 2015-05-25 10:44:00 +08:00
 categories: IT Java
 tags: java lambda
 ---

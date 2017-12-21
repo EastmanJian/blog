@@ -9,7 +9,7 @@ tags: softskill learning
 * content
 {:toc}
 
-　　　　　　　　　　　　　　　　　　　[(English)](http://eastmanjian.cn/blog/2017/05/17/softskill-ten-steps-learning-approach/)  
+　　　　　　　　　　　　　　　　　　　[(English)](https://eastmanjian.cn/blog/2017/05/17/softskill-ten-steps-learning-approach/)  
 　　生活在软件开发的世界，新技术层出不穷。如何跟进时代的步伐？John Z. Sonmez在他的《Soft Skills - The software developer's life manual》一书中给出了他的建议。我的一位前同事也推荐此书。John发明的十步学习法对自学相当的有效。
 
 >> ***教育就是当一个人把在学校所学全部忘光之后剩下的东西。***
