@@ -14,8 +14,8 @@
         ["Form",              "Form Input Types",                                                  "https://eastmanjian.github.io/HTML_CSS_Demo/html5_form_input_types.html" , "TIY"],
         ["Form",              "Form Elements",                                                     "https://eastmanjian.github.io/HTML_CSS_Demo/html5_form_elements.html"    , "TIY"],
         ["Form",              "Form Attributes",                                                   "https://eastmanjian.github.io/HTML_CSS_Demo/html5_form_attributes.html"  , "TIY"],
-        ["API",               "Geolocation - Get current location and show in GoogleMap/BaiduMap", "https://eastmanjian.github.io/HTML_CSS_Demo/html5_geolocation.html"      , "TIY"],
-        ["API",               "Geolocation - Watch current location and show in a map",            "https://eastmanjian.github.io/HTML_CSS_Demo/html5_geolocation_watch.html", "TIY"],
+        ["API",               "Geolocation - Get current location and show in GoogleMap/BaiduMap", "https://eastmanjian.github.io/HTML_CSS_Demo/html5_geolocation.html"             ],
+        ["API",               "Geolocation - Watch current location and show in a map",            "https://eastmanjian.github.io/HTML_CSS_Demo/html5_geolocation_watch.html"       ],
         ["API",               "Web Storage (localStorage vs sessionStorage), counter example",     "https://eastmanjian.github.io/HTML_CSS_Demo/html5_web_storage.html"      , "TIY"],
         ["API",               "App Cache (Offline Application)",                                   "https://eastmanjian.github.io/HTML_CSS_Demo/html5_app_cache.html"        , "TIY"],
         ["API",               "Web Worker",                                                        "https://eastmanjian.github.io/HTML_CSS_Demo/html5_web_worker.html"              ],
@@ -29,7 +29,7 @@
     {
       "tech": "CSS and CSS3",
       "list": [
-        ["CSS Fundamental",           "CSS Demo - various CSS sheets apply to one html",          "https://eastmanjian.github.io/HTML_CSS_Demo/css_basic_demo.html"                       ,"TIY"],
+        ["CSS Fundamental",           "CSS Demo - various CSS sheets apply to one html",          "https://eastmanjian.github.io/HTML_CSS_Demo/css_basic_demo.html"                             ],
         ["CSS Selectors",             "Descendant selector",                                      "https://eastmanjian.github.io/HTML_CSS_Demo/css_descendant_selector.html"              ,"TIY"],
         ["CSS Selectors",             "Descendant selector override single selector",             "https://eastmanjian.github.io/HTML_CSS_Demo/css_descendant_selector_2.html"            ,"TIY"],
         ["CSS Selectors",             "Descendant selector with cross levels elements",           "https://eastmanjian.github.io/HTML_CSS_Demo/css_descendant_selector_3.html"            ,"TIY"],

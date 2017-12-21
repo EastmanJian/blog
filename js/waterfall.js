@@ -17,30 +17,30 @@
       demo_link: 'https://eastmanjian.cn/delightalk/pageJsTest.html',
       img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/delightalk/delightalk-demo.jpg',
       code_link: 'https://github.com/EastmanJian/delightalk',
-      title: 'Delightalk plugable commenting system',
-      core_tech: 'Redis JAX-RS Javascript',
-      description: 'A plugable commeting system. 评论平台, 方便嵌入到你的网站中。Communicate with back-end with RESTful API.'
+      title: 'DELIGHTALK Pluggable Commenting System',
+      core_tech: 'Redis JAX-RS JavaScript',
+      description: 'A pluggable commeting system. 评论平台, 方便嵌入到你的网站中。Communicate with back-end with RESTful API.'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
-      img_link: 'https://ooo.0o0.ooo/2016/06/20/5768c1597d1fe.png',
-      code_link: 'https://github.com/Gaohaoyang/test/tree/master/headerTransition',
-      title: 'Header Transition 渐变动画',
-      core_tech: 'jQuery BootStrap CSS3',
-      description: '花费不到半小时帮师兄做了一个简单的 CSS3 动画效果，当页面滚动到指定距离时，header 区的背景色由透明变为蓝色。仿照了网站 <a href ="https://quorrajs.org/">https://quorrajs.org/</a> 的 Header 区动画效果。'
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/tiy/tiy-demo.jpg',
+      code_link: 'https://github.com/EastmanJian/javascript_demo/blob/gh-pages/web/tiy.jsp',
+      title: 'TIY (Try It Yourself) Tool',
+      core_tech: 'JavaScript CSS3 JSP AJAX',
+      description: 'This is a front-end tool which can be used as a playground of HTML, JavaScript and CSS. 调试沙盒。 With Save and Load function. Provides syntax hightlight powered by codemirror js plugin. <a href="https://eastmanjian.cn/blog/2014/12/21/tiy-try-it-yourself-release-demo-available">More detail.</a>'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/mask-fade-out/',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/demo-fade-out.png',
-      code_link: 'https://github.com/Gaohaoyang/mask-fade-out',
-      title: '遮罩层按指定路径缩小消失',
-      core_tech: 'jQuery CSS',
-      description: '使用 animate 方法，做到兼容 IE8。曾在联想服务官网上线3个月。'
+      demo_link: 'https://eastmanjian.github.io/HTML_CSS_Demo/html5_geolocation.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/html5/geolocation-demo.jpg',
+      code_link: 'https://github.com/EastmanJian/HTML_CSS_Demo/blob/gh-pages/html5_geolocation.html',
+      title: 'HTML5 Geolocation Positioning 地理定位',
+      core_tech: 'HTML5 JavaScript',
+      description: 'Use navigator.geolocation to locate the current georaphic location. 地理定位。<a href="https://eastmanjian.cn/blog/2015/06/30/html5-geolocation-positioning/" target="_blank">More detail</a>.'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/ToDo-WebApp/',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/blog-todoWebApp.png',
-      code_link: 'https://github.com/Gaohaoyang/ToDo-WebApp',
-      title: '百度前端学院 task0004 ToDo 应用(移动端)',
-      core_tech: 'JavaScript LocalStorage requireJS Sass Gulp XSS',
-      description: '在任务三中，做了一个 PC 端的 ToDo 应用。任务四是将它优化，以适应移动端设备。'
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fhtml5_canvas.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/html5/canvas-demo.jpg',
+      code_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fhtml5_canvas.html',
+      title: 'HTML5 Canvas',
+      core_tech: 'HTML5 JavaScript',
+      description: 'Canvas is a new feature in HTML5. It\'s used to draw graphics, on the fly, on a web page, via scripting (usually JavaScript). This demo shows some basic operations of canvas. <a href="https://eastmanjian.cn/blog/2015/06/30/html5-canvas/" target="_blank">More detail</a>.'
     }, {
       demo_link: 'http://gaohaoyang.github.io/baidu-ife-practice/task0003/',
       img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/demo-todo.png',
@@ -147,7 +147,7 @@ function contentInit(content) {
   var htmlStr = ''
   for (var i = 0; i < content.length; i++) {
     htmlStr += '<div class="grid-item">' 
-             + '   <a class="a-img" href="' + content[i].demo_link + '">' 
+             + '   <a class="a-img" href="' + content[i].demo_link + '" target="_blank">' 
              + '       <img src="' + content[i].img_link + '">' 
              + '   </a>'
              + '   <h3 class="demo-title">' 
@@ -155,7 +155,7 @@ function contentInit(content) {
              + '   </h3>'
              + '   <p><img class="badge" src="https://img.shields.io/badge/-Tech.-orange.svg" alt="Tech.:"/> ' + content[i].core_tech + '</p>'
              + '   <p><i class="fa fa-edit fa-lg" aria-hidden="true"></i> ' + content[i].description
-             + '       <a href="' + content[i].code_link + '"><img class="badge" src="https://img.shields.io/badge/Source%20Code-Open-green.svg" alt="Source Code"/></a>'
+             + '       <a href="' + content[i].code_link + '" target="_blank"><img class="badge" src="https://img.shields.io/badge/Source%20Code-Open-green.svg" alt="Source Code"/></a>'
              + '   </p>'
              + '</div>'
     
