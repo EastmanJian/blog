@@ -10,7 +10,7 @@
 (function() {
 
   /**
-     * 内容JSON
+     * Content data
      */
   var demoContent = [
     {
@@ -24,37 +24,42 @@
       demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp',
       img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/tiy/tiy-demo.jpg',
       code_link: 'https://github.com/EastmanJian/javascript_demo/blob/gh-pages/web/tiy.jsp',
+      detail_link: 'https://eastmanjian.cn/blog/2014/12/21/tiy-try-it-yourself-release-demo-available',
       title: 'TIY (Try It Yourself) Tool',
       core_tech: 'JavaScript CSS3 JSP AJAX',
-      description: 'This is a front-end tool which can be used as a playground of HTML, JavaScript and CSS. 调试沙盒。 With Save and Load function. Provides syntax hightlight powered by codemirror js plugin. <a href="https://eastmanjian.cn/blog/2014/12/21/tiy-try-it-yourself-release-demo-available">More detail.</a>'
+      description: 'This is a front-end tool which can be used as a playground of HTML, JavaScript and CSS. 调试沙盒。 With Save and Load function. Provides syntax hightlight powered by codemirror js plugin.'
     }, {
       demo_link: 'https://eastmanjian.github.io/HTML_CSS_Demo/html5_geolocation.html',
       img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/html5/geolocation-demo.jpg',
       code_link: 'https://github.com/EastmanJian/HTML_CSS_Demo/blob/gh-pages/html5_geolocation.html',
+      detail_link: 'https://eastmanjian.cn/blog/2015/06/30/html5-geolocation-positioning/',
       title: 'HTML5 Geolocation Positioning 地理定位',
       core_tech: 'HTML5 JavaScript',
-      description: 'Use navigator.geolocation to locate the current georaphic location. 地理定位。<a href="https://eastmanjian.cn/blog/2015/06/30/html5-geolocation-positioning/" target="_blank">More detail</a>.'
+      description: 'Use navigator.geolocation to locate the current georaphic location. 地理定位。'
     }, {
       demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fhtml5_canvas.html',
       img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/html5/canvas-demo.jpg',
       code_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fhtml5_canvas.html',
+      detail_link: 'https://eastmanjian.cn/blog/2015/06/30/html5-canvas/',
       title: 'HTML5 Canvas',
       core_tech: 'HTML5 JavaScript',
-      description: 'Canvas is a new feature in HTML5. It\'s used to draw graphics, on the fly, on a web page, via scripting (usually JavaScript). This demo shows some basic operations of canvas. <a href="https://eastmanjian.cn/blog/2015/06/30/html5-canvas/" target="_blank">More detail</a>.'
+      description: 'Canvas is a new feature in HTML5. It\'s used to draw graphics, on the fly, on a web page, via scripting (usually JavaScript). This demo shows some basic operations of canvas.'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/baidu-ife-practice/task0003/',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/demo-todo.png',
-      code_link: 'https://github.com/Gaohaoyang/baidu-ife-practice/tree/master/task0003',
-      title: '百度前端学院 task0003 ToDo 应用',
-      core_tech: 'JavaScript LocalStorage',
-      description: '任务三，ToDo 单页应用，主要使用了 LocalStorage 存储数据，使用 JSON 模拟了 3 张数据表。'
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fhtml5_drag_and_drop.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/html5/drag-drop-demo.png',
+      code_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fhtml5_drag_and_drop.html',
+      detail_link: 'https://eastmanjian.cn/blog/2016/11/22/drag-and-drop-html5-vs-jquery/',
+      title: 'HTML5 Drag and Drop',
+      core_tech: 'HTML5 JavaScript',
+      description: 'The usage of ondragover and ondrop events. Also the usage of event.preventDefault() method, event.dataTransfer object. [<a href="https://eastmanjian.cn/blog/2016/11/22/drag-and-drop-html5-vs-jquery/" title>More detail</a>]'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/ife/task/task0002/work/Gaohaoyang/task0002_5.html',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/demo-drag.png',
-      code_link: 'https://github.com/Gaohaoyang/ife/tree/master/task/task0002/work/Gaohaoyang',
-      title: '拖拽交互',
-      core_tech: 'JavaScript',
-      description: '对鼠标事件应用，以及判断定位的方法等。'
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss_opacity_image.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/html5/img-opacity-demo.png',
+      code_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss_opacity_image.html',
+      detail_link: 'https://eastmanjian.cn/blog/2015/10/14/css3-opacity/',
+      title: 'CSS3 Opacity',
+      core_tech: 'CSS3',
+      description: 'The CSS opacity property is a part of the W3C CSS3 recommendation. CSS3的透明效果。'
     }, {
       demo_link: 'http://gaohaoyang.github.io/ife/task/task0002/work/Gaohaoyang/task0002_4.html',
       img_link: 'http://ww2.sinaimg.cn/large/7011d6cfjw1f3ba2krzs0j207005y0sv.jpg',
@@ -144,24 +149,26 @@
  * @return {[type]} [description]
  */
 function contentInit(content) {
-  var htmlStr = ''
+  var htmlStr = '';
   for (var i = 0; i < content.length; i++) {
-    htmlStr += '<div class="grid-item">' 
-             + '   <a class="a-img" href="' + content[i].demo_link + '" target="_blank">' 
-             + '       <img src="' + content[i].img_link + '">' 
-             + '   </a>'
-             + '   <h3 class="demo-title">' 
-             + '       <a href="' + content[i].demo_link + '">' + content[i].title + '</a>'
-             + '   </h3>'
-             + '   <p><img class="badge" src="https://img.shields.io/badge/-Tech.-orange.svg" alt="Tech.:"/> ' + content[i].core_tech + '</p>'
-             + '   <p><i class="fa fa-edit fa-lg" aria-hidden="true"></i> ' + content[i].description
-             + '       <a href="' + content[i].code_link + '" target="_blank"><img class="badge" src="https://img.shields.io/badge/Source%20Code-Open-green.svg" alt="Source Code"/></a>'
-             + '   </p>'
-             + '</div>'
+    htmlStr   += '<div class="grid-item">' 
+              +  '   <a class="a-img" href="' + content[i].demo_link + '" target="_blank">' 
+              +  '       <img src="' + content[i].img_link + '">' 
+              +  '   </a>'
+              +  '   <h3 class="demo-title">' 
+              +  '       <a href="' + content[i].demo_link + '" title>' + content[i].title + '</a>'
+              +  '   </h3>'
+              +  '   <p><img class="badge" src="https://img.shields.io/badge/-Tech.-orange.svg" alt="Tech.:"/> ' + content[i].core_tech + '</p>'
+              +  '   <p><i class="fa fa-edit fa-lg" aria-hidden="true"></i> ' + content[i].description;
+    if ( content[i].detail_link ) 
+      htmlStr += '       <a href="' + content[i].detail_link + '" title><img class="badge" src="https://img.shields.io/badge/-More%20Detail-green.svg" alt="More Detail"/></a> ';
+    htmlStr   += '       <a href="' + content[i].code_link + '" target="_blank"><img class="badge" src="https://img.shields.io/badge/-Source%20Code-lightgrey.svg" alt="Source Code"/></a>'
+              + '   </p>'
+              + '</div>';
     
   }
-  var grid = document.querySelector('.grid')
-  grid.insertAdjacentHTML('afterbegin', htmlStr)
+  var grid = document.querySelector('.grid');
+  grid.insertAdjacentHTML('afterbegin', htmlStr);
 }
 
 /**

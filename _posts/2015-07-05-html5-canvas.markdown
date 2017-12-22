@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTML5 new feature - Canvas"
-date: 2015-06-30 22:15:00 +08:00
+date: 2015-07-05 22:15:00 +08:00
 categories: Web IT
 tags: HTML5 JavaScript
 ---
