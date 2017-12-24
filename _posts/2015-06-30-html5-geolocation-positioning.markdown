@@ -33,5 +33,5 @@ Please find demo web pages below.
 
 If your browser support HTML5 geolocation, the result would look like below.   
 (因为土啬的关系，Google Map不一定能看到哦)  
-![geolocation sample](https://ejres-1253687085.picgz.myqcloud.com/img/html5/geolocation-ssample.png)
+![geolocation sample](https://ejres-1253687085.picgz.myqcloud.com/img/html5/geolocation-sample.png)
 

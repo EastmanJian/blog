@@ -439,7 +439,8 @@
         ["Jersey",    "using @Context to obtain a general map of HTTP headers and cookies",              "https://eastmanjian.cn/jersey_demo/webapi/headermap"                    ],
         ["Jersey",    "use @BeanParam to inject parameters into a bean, @MatrixParam, @HeaderParam",     "https://eastmanjian.cn/jersey_demo/webapi/beanparam/Eastman;m=ValM;n=ValN?q=135"       ],
         ["Jersey",    "using JAXB approach via MOXy Module to output JSON format response",              "https://eastmanjian.cn/jersey_demo/webapi/jaxbjson"                     ],
-        ["Jersey",    "Jersey Demo Application WADL",                                                    "https://eastmanjian.cn/jersey_demo/webapi/application.wadl"             ]
+        ["Jersey",    "Jersey Demo Application WADL",                                                    "https://eastmanjian.cn/jersey_demo/webapi/application.wadl"             ],
+        ["Jersey",    "@Context, obtain HttpServletRequest (e.g. user IP) and SecurityContext info",     "https://eastmanjian.cn/jersey_demo/webapi/httpServletReq"               ]
       ]  
     }
  ],

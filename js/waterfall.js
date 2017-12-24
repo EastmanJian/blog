@@ -51,92 +51,128 @@
       detail_link: 'https://eastmanjian.cn/blog/2016/11/22/drag-and-drop-html5-vs-jquery/',
       title: 'HTML5 Drag and Drop',
       core_tech: 'HTML5 JavaScript',
-      description: 'The usage of ondragover and ondrop events. Also the usage of event.preventDefault() method, event.dataTransfer object. [<a href="https://eastmanjian.cn/blog/2016/11/22/drag-and-drop-html5-vs-jquery/" title>More detail</a>]'
+      description: 'The usage of ondragover and ondrop events. Also the usage of event.preventDefault() method, event.dataTransfer object.'
     }, {
       demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss_opacity_image.html',
-      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/html5/img-opacity-demo.png',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/css3/img-opacity-demo.png',
       code_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss_opacity_image.html',
       detail_link: 'https://eastmanjian.cn/blog/2015/10/14/css3-opacity/',
       title: 'CSS3 Opacity',
       core_tech: 'CSS3',
-      description: 'The CSS opacity property is a part of the W3C CSS3 recommendation. CSS3的透明效果。'
+      description: 'The CSS opacity property is a part of the W3C CSS3 recommendation. 用CSS3嘅透明效果实现高亮选择。'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/ife/task/task0002/work/Gaohaoyang/task0002_4.html',
-      img_link: 'http://ww2.sinaimg.cn/large/7011d6cfjw1f3ba2krzs0j207005y0sv.jpg',
-      code_link: 'https://github.com/Gaohaoyang/ife/tree/master/task/task0002/work/Gaohaoyang',
-      title: '输入框即时提示',
-      core_tech: 'JavaScript',
-      description: '对input监听，使用正在表达式高亮匹配，实现输入联想效果。'
+      demo_link: 'https://eastmanjian.github.io/HTML_CSS_Demo/css_basic_demo.html',
+      img_link: 'http://ejres-1253687085.picgz.myqcloud.com/img/css3/sheet-switch-demo.png',
+      code_link: 'https://github.com/EastmanJian/HTML_CSS_Demo/blob/gh-pages/css_basic_demo.html',
+      detail_link: 'https://eastmanjian.cn/blog/2014/11/12/css-sheet-switching/',
+      title: 'Switching Between Style Sheets',
+      core_tech: 'CSS CSS3',
+      description: 'Swith mutiple CSS on one HTML document. A single HTML document can be rendered into different style. CSS的魅力，同样一个HTML能渲染出各种风格的页面。'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/ife/task/task0002/work/Gaohaoyang/task0002_3.html',
-      img_link: 'http://ww2.sinaimg.cn/large/7011d6cfjw1f3ba04okoqj20eq093wh1.jpg',
-      code_link: 'https://github.com/Gaohaoyang/ife/tree/master/task/task0002/work/Gaohaoyang',
-      title: '轮播图',
-      core_tech: 'JavaScript',
-      description: '变速运动，运动终止条件的应用。'
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss_position_float_big_letter.html',
+      img_link: 'http://ejres-1253687085.picgz.myqcloud.com/img/css3/first-letter-float.png',
+      code_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss_position_float_big_letter.html',
+      title: 'First Letter Sink and Enlarge Effect',
+      core_tech: 'CSS',
+      description: 'Let the first letter of a paragraph float to the left and style the letter. 段落首字母下沉并放大。有啲似中世纪报纸嘅风格。'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/ife/task/task0002/work/Gaohaoyang/task0002_2.html',
-      img_link: 'http://ww4.sinaimg.cn/large/7011d6cfjw1f3b9w6xpz5j20ae02pgm3.jpg',
-      code_link: 'https://github.com/Gaohaoyang/ife/tree/master/task/task0002/work/Gaohaoyang',
-      title: '倒计时',
-      core_tech: 'JavaScript',
-      description: 'setInterval()，Date 对象的学习和使用。'
-    }, {
-      demo_link: 'http://gaohaoyang.github.io/ife/task/task0002/work/Gaohaoyang/task0002_1.html',
-      img_link: 'http://ww3.sinaimg.cn/large/7011d6cfjw1f3b9tmyuh2j20au0aaaar.jpg',
-      code_link: 'https://github.com/Gaohaoyang/ife/tree/master/task/task0002/work/Gaohaoyang',
-      title: '处理兴趣爱好列表',
-      core_tech: 'JavaScript',
-      description: '对JavaScript正则表达式和字符串的练习。'
-    }, {
-      demo_link: 'http://gaohaoyang.github.io/ife/task/task0002/work/Gaohaoyang/index.html',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/demo-demo-index.png',
-      code_link: 'https://github.com/Gaohaoyang/ife/tree/master/task/task0002/work/Gaohaoyang',
-      title: '百度前端学院 task0002 展示主页',
-      core_tech: 'HTML CSS',
-      description: '任务二的展示主页，里面包含五个小 demo。还有一篇相关的<a href="http://gaohaoyang.github.io/2015/04/22/baidu-ife-2-javascript/" target="_blank">日志。</a>'
-    }, {
-      demo_link: 'http://gaohaoyang.github.io/ife/task/task0001/work/Gaohaoyang/index.html',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/Demo-blog-ife.jpg',
-      code_link: 'https://github.com/Gaohaoyang/ife/tree/master/task/task0001/work/Gaohaoyang',
-      title: '百度前端学院 task0001 个人博客',
-      core_tech: 'HTML CSS',
-      description: '完成百度前端学院的任务。深刻的理解了BFC、浮动、inline-block间距，多列布局等技术。还有一篇相关的<a href="http://gaohaoyang.github.io/2015/04/15/baidu-ife-1/" target="_blank">日志。</a>'
-    }, {
-      demo_link: 'http://gaohaoyang.github.io/ghost-button-css3/',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/DemoGhost-Button.png',
-      code_link: 'https://github.com/Gaohaoyang/ghost-button-css3',
-      title: 'Ghost Button 幽灵按钮',
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss3_animation_cube_3d.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/css3/3d-cube.png',
+      code_link: 'https://github.com/EastmanJian/HTML_CSS_Demo/blob/gh-pages/css3_animation_cube_3d.html',
+      title: '3D Rotating Cube',
       core_tech: 'CSS3',
-      description: '使用 CSS3 中的旋转、缩放、过渡、动画等效果，制作出很酷的按钮效果。'
+      description: 'Demonstrate the usage of CSS3 animation feature, the setting of transform-style preserve-3d, key frames, rotate and translate. CSS3旋转立方。'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/shadow-demo-css3',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/Demoshadow.png',
-      code_link: 'https://github.com/Gaohaoyang/shadow-demo-css3',
-      title: 'CSS3 阴影特效',
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.cn%2Fhtml5_demo%2Fhtml5_sse_demo_cnt.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/html5/html5-sse-demo.png',
+      code_link: 'https://github.com/EastmanJian/html5_serverside_demo/blob/master/web/html5_sse_demo_cnt.jsp',
+      title: 'Registered User Count Pushed from Server',
+      core_tech: 'HTML5 JavaScript JSP',
+      description: 'Use HTML5 new feature SSE (Sever Sent Event) to implement a registered user counter. 服务器向前端推送已注册用户嘅数字。利用咗HTML5嘅SSE新特性。 '
+    }, {
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss3_curl_shadow.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/css3/curl-shadow.png',
+      code_link: 'https://github.com/EastmanJian/HTML_CSS_Demo/blob/gh-pages/css3_curl_shadow.html',
+      title: 'CSS3 Curl Shadow Effect',
       core_tech: 'CSS3',
-      description: 'CSS3 中的阴影、旋转等效果，制作出曲边阴影和翘边阴影。'
+      description: 'Utilize the CSS pseudo class and the CSS3 box-shadow property to make curl shadow effect. So that a picture above looks edge wraping like a paper.'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/learning-AngularJS/2-3-bookstore-add-sth-by-myself/',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/DemoAngularJS.png',
-      code_link: 'https://github.com/Gaohaoyang/learning-AngularJS/tree/master/2-3-bookstore-add-sth-by-myself',
-      title: 'AngularJS 结合动画效果',
-      core_tech: 'AngularJS CSS3',
-      description: '使用 AngularJS 中的 ngAnimate 加 CSS3里面的一些旋转效果，做出页面切换的效果。'
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss3_transition_effects.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/css3/css3-transition.png',
+      code_link: 'https://github.com/EastmanJian/HTML_CSS_Demo/blob/gh-pages/css3_transition_effects.html',
+      title: 'CSS3 Transition Effect',
+      core_tech: 'HTML CSS',
+      description: 'Demo of CSS3 transition effects: rotate, resize, color, and shape transitions, 3D rotate transition, transition timing, transition delay.'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/learning-AngularJS/2-4-UiRouterPractice',
-      img_link: 'http://ww2.sinaimg.cn/large/7011d6cfjw1f3b8zumfqij20q40nh76x.jpg',
-      code_link: 'https://github.com/Gaohaoyang/learning-AngularJS/tree/master/2-4-UiRouterPractice',
-      title: 'AngularJS UI-router 练习',
-      core_tech: 'AngularJS UI-router',
-      description: 'UI-router 作为 AngularJS 中路由的扩充，实现了多级路由的效果。使得前端界面跳转更加方便。'
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=bom%2Fclock.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/css3/clock.png',
+      code_link: 'https://github.com/EastmanJian/javascript_demo/blob/gh-pages/web/bom/clock.html',
+      title: 'Clock Simple Life',
+      core_tech: 'CSS3 JavaScript',
+      description: 'Without using image, the clock is made of some tricks of CSS relative postioning, CSS3 radial-gradient background, border-radius, box-shadow and a small fragment of JavaScript codes.'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/test/bootstrap-zhihu/',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/teach-girlfriend-html-CopyZhihu.jpg',
-      code_link: 'https://github.com/Gaohaoyang/test/tree/master/bootstrap-zhihu',
-      title: '仿知乎页面',
-      core_tech: 'HTML BootStrap',
-      description: '使用BootStrap仿照知乎做了一个静态页面。'
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=jq%2Fdemo%2Faccordion_datatable.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/jquery/accordion-datatable.png',
+      code_link: 'https://github.com/EastmanJian/javascript_demo/blob/gh-pages/web/jq/demo/accordion_datatable.html',
+      title: 'Accordion plus Datatable',
+      core_tech: 'jQuery',
+      description: 'A combination of using jQuery Accordion widget and a jQuery datatable plugin. They are very good components when you want to collapse a lot of information in a web page. The Demo page of my Blog is using these widgets.'
+    }, {
+      demo_link: 'https://eastmanjian.cn/bs_demo/carousel_bs4.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/bootstrap/carousel.png',
+      code_link: 'https://github.com/EastmanJian/bootstrap_demo/blob/gh-pages/web/carousel_bs4.html',
+      title: 'Carousel 翻动告示牌',
+      core_tech: 'Bootstrap 3/4',
+      description: '在众多门户网站常见翻动告示牌。用来做广告，展示陈列品，滚动轮番的信息都好好用。Bootstrap将佢组件化了。的Bootstrap 3和4嘅Carousel组件默认样式有啲唔同。把URL中的4改为3试试。'
+    }, {
+      demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.cn%2Fbs_demo%2Fscrollspy_bs4_nav_nested.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/bootstrap/scrollspy.png',
+      code_link: 'https://github.com/EastmanJian/bootstrap_demo/blob/gh-pages/web/scrollspy_bs4_nav_nested.html',
+      title: 'Bootstrap ScrollSpy Component - Nested',
+      core_tech: 'Bootstrap 4',
+      description: 'For long content article or documentation, usually there is TOC (Table Of Content). To keep the doc scroll position in sync with the TOC item, Bootstrap ScrollSpy is a good option. It supports nested TOC as well.'
+    }, {
+      demo_link: 'https://eastmanjian.cn/bs_demo/sticky_top.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/bootstrap/sticky-top.png',
+      code_link: 'https://github.com/EastmanJian/bootstrap_demo/blob/gh-pages/web/sticky_top.html',
+      title: 'Bootstrap Sticky-Top Utility',
+      core_tech: 'Bootstrap 4',
+      description: 'In some mordern web page, when you scroll down, the header of the page will be scrolled out of the screen but the nav bar will be kept at the top of the screen. This can be accomplished by Bootstrap\'s Sticky-Top utility.'
+    }, {
+      demo_link: 'https://eastmanjian.cn/jersey_demo/webapi/httpServletReq',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/rest/jersey-context.png',
+      code_link: 'https://github.com/EastmanJian/jersey_demo/blob/master/src/main/java/jersey/demo/param/HttpServletRequestResource.java',
+      title: 'Injecting HttpServletRequest using Jersey @Context',
+      core_tech: 'JAX-RS Jersey RESTful',
+      description: 'To obtain the parameters in a HTTP header (e.g. Client IP), use Jersey @Context to inject HttpServletRequest. By doing so, server side can realize more information about the client.'
+    }, {
+      demo_link: 'https://eastmanjian.cn/react_demo/thinking_in_react',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/react/design-flow.png',
+      code_link: 'https://github.com/EastmanJian/react_demo/blob/master/react-demo-app/src/thinkingInReact.js',
+      title: 'Stock Item List Filtering',
+      core_tech: 'ReactJS',
+      description: 'A stock item list filtering page demonstrates the design steps of React: 1) Identify component hierarchy, 2) Build static version, 3) Identify States, 4) Identify State Owner, 5) Add Inverse Data Flow.'
+    }, {
+      demo_link: 'https://eastmanjian.cn/react_demo/lift_state_up',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/react/lift-state-up.png',
+      code_link: 'https://github.com/EastmanJian/react_demo/blob/master/react-demo-app/src/liftStateUp.js',
+      title: 'Lifting State Up',
+      core_tech: 'ReactJS',
+      description: 'React Design Rule - Lift the State Up: when you want to aggregate data from multiple children or to have two child components communicate with each other, move the state upwards so that it lives in their closest common ancestor component.'
+    }, {
+      demo_link: 'https://eastmanjian.cn/jersey_demo/webapi/jaxbjson',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/rest/jaxb-moxy.png',
+      code_link: 'https://github.com/EastmanJian/jersey_demo/blob/master/src/main/java/jersey/demo/moxy/jaxb/JaxbResource.java',
+      title: 'JSON binding support via MOXy',
+      core_tech: 'JAX-RS Jersey RESTful JSON MOXy',
+      description: 'JSON binding support via MOXy is a default and preferred way of supporting JSON binding in Jersey applications since Jersey 2.0. When JSON MOXy module is on the class-path, Jersey will automatically discover the module. The demo shows binding a POJO bean to a JSON response.'
+    }, {
+      demo_link: 'https://eastmanjian.cn/spring_4x_mvc_demo/hellospring.do',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/spring/spring-mvc.png',
+      code_link: 'https://github.com/EastmanJian/spring_4x_mvc_demo',
+      title: 'Spring MVC Framework',
+      core_tech: 'Spring MVC',
+      description: 'Spring Web MVC framework provides Model-View-Controller (MVC) architecture. This example demostrates the usage of Spring DispatcherServlet, @Controller, @RequestMapping, ModelMap, InternalResourceViewResolver and BeanNameViewResolver.'
     }
   ];
 
