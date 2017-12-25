@@ -1,0 +1,65 @@
+---
+layout: post
+title: "Model-View-Controller(MVC) - an architecture design pattern"
+date: 2012-01-28 10:45:00 +08:00
+categories: Web IT
+tags: MVC
+---
+
+* content
+{:toc}
+
+
+# MVC Definition  
+The Model/View/Controller(MVC) is an architecture design pattern. 
+* Model
+    - Data. 
+    - Contains the business data, processing, and rules.
+    - 应用对象.
+* View
+    - Representation. 
+    - Displays a graphical user interface (GUI) containing the Model components data to the user and usually passes GUI events to Controller components
+    - 在屏幕上的表示
+* Controller
+    - It accepts requests from the user, invokes processing on the Model components, and determines which View component should be displayed.
+    - Works on data and representation. 
+    - 定义用户界面对用户输入的响应方式
+
+
+
+
+
+**MVC focuses on decouple the triad relationships among data, representation and controller.**
+
+# Architecture Diagram
+
+![MVC Diagram 1](https://ejres-1253687085.picgz.myqcloud.com/img/mvc/mvc-hf.jpg)  
+![MVC Diagram 2](https://ejres-1253687085.picgz.myqcloud.com/img/mvc/mvc-j2ee-dp.png)  
+![MVC Diagram 3](https://ejres-1253687085.picgz.myqcloud.com/img/mvc/mvc-j2ee-eg.png)
+
+# Where to use
+* Application architecture design.
+* Useful in applications where the user interface might frequently change.
+* Any data related design, including non-visual application.
+* MVC can be adapted to Web applications
+* MVC can be found in many places, including the Java Foundation Classes/Swing (JFC/Swing) API
+
+# Benefits
+* Decouple complex object to improve maintainability.
+* Increase object reusability.
+* Achieve design flexibility.
+
+
+# Where to put business logic?
+* The controller is for application logic; logic which is specific to how your application wants to interact with the domain of knowledge it pertains to. The model is for logic that is independent of the application. i.e. logic that is valid in all possible applications of the domain of knowledge it pertains to. Hence nearly all business rules will be in the model.  
+* I find a useful question to ask myself when I need to decide where to put some logic is "is this always true, or just for the part of the application I am currently coding?"  
+* 基本原则:业务逻辑代码应该写在 M 里面,而应用程序逻辑应该写在 C 里面
+
+
+# References
+* Head First Design Patterns
+* Addison-Wesley - Erich Gamma - Design Patterns
+* J2EE Patterns
+* StackOverflow
+* CNBLOGS
+

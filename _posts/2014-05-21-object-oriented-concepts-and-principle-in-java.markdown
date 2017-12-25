@@ -3,7 +3,7 @@ layout: post
 title: "Object-Oriented Concepts and Design Principles"
 date: 2014-05-21 12:02:00 +08:00
 categories: IT Java
-tags: java design oo oop ooa ooad
+tags: Java design OOP OOAD
 ---
 
 * content
