@@ -86,9 +86,10 @@
       demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.cn%2Fhtml5_demo%2Fhtml5_sse_demo_cnt.html',
       img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/html5/html5-sse-demo.png',
       code_link: 'https://github.com/EastmanJian/html5_serverside_demo/blob/master/web/html5_sse_demo_cnt.jsp',
+      detail_link: 'https://eastmanjian.cn/blog/2015/10/23/html5-server-sent-event/',
       title: 'Registered User Count Pushed from Server',
       core_tech: 'HTML5 JavaScript JSP',
-      description: 'Use HTML5 new feature SSE (Sever Sent Event) to implement a registered user counter. 服务器向前端推送已注册用户嘅数字。利用咗HTML5嘅SSE新特性。 '
+      description: 'Use HTML5 new feature SSE (Server Sent Event) to implement a registered user counter. 服务器向前端推送已注册用户嘅数字。利用咗HTML5嘅SSE新特性。 '
     }, {
       demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss3_curl_shadow.html',
       img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/css3/curl-shadow.png',

@@ -11,8 +11,9 @@ tags: HTML5 JavaScript jQuery
 
 
 Both HTML5 and jQuery supports drap and drop. Demos please find below.  
-* [HTML5](https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fhtml5_drag_and_drop.html)
-* [jQuery](https://eastmanjian.cn/js_demo/tiy.jsp?sample=jq%2Fui%2Fdraggable.html)
+* [HTML5 example](https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fhtml5_drag_and_drop.html)
+* [jQuery example 1](https://eastmanjian.cn/js_demo/tiy.jsp?sample=jq%2Fui%2Fdraggable.html)
+* [jQuery example 2](https://eastmanjian.cn/js_demo/tiy.jsp?sample=jq%2Fui%2Fdroppable.html)
 
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "Switching Style Sheets in a single HTML page"
 date: 2014-11-12 20:32:00 +08:00
 categories: Web IT
-tags: CSS, CSS3, JavaScript
+tags: CSS CSS3 JavaScript
 ---
 
 * content
