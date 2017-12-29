@@ -3,27 +3,42 @@
 #The client public key should be placed in the .ssh/authorized_keys for connection establishment.
 #Use --resources or -r option to sync resources (images, movies, ...) file from jekyll source folder only.
 
+START_TIMESTAMP=`date "+%Y-%m-%d %H:%M:%S"`
+START_MSEC=`date +%s%3N`
 
-#Get the parameters from _config.yml
+echo '-----Get the parameters from _config.yml-----'
 HOST=$(grep '^vps_host:' _config.yml | awk 'BEGIN{FS=":"}{print $2}' | sed 's/^ *//g')
 PORT=$(grep '^vps_ssh_port:' _config.yml | awk 'BEGIN{FS=":"}{print $2}' | sed 's/^ *//g')
 USERNAME=$(grep '^vps_ssh_username:' _config.yml | awk 'BEGIN{FS=":"}{print $2}' | sed 's/^ *//g')
 DES=$(grep '^vps_htdocs_root:' _config.yml | awk 'BEGIN{FS=":"}{print $2}' | sed 's/^ *//g')
 BASEURL=$(grep '^baseurl:' _config.yml | awk 'BEGIN{FS="\""}{print $2}')
 
-#deploy resources to cloud
+echo '-----deploy resources to cloud-----'
 ./cos_sync.sh
 
-#build blog _site files
-jekyll build
+echo '-----sync blog files to linux folder-----'
+rsync -zrtopgv --checksum --delete --progress /mnt/hgfs/Blog/eastman_blog ~/
 
+echo '-----build blog _site files-----'
+cd ~/eastman_blog
+jekyll build --incremental 
 
-
-#sync _site files or images to VPS
+echo '-----sync _site files or images to VPS-----'
 if [ "$1" = "--resources" -o "$1" = "-r" ] ; then
-  rsync -zrtopgv -e "ssh -p $PORT" --delete --progress ./resources $USERNAME@$HOST:$DES
+  rsync -zrtopgv -e "ssh -p $PORT" --checksum --delete --progress ./resources $USERNAME@$HOST:$DES
 else
-  rsync -zrtopgv -e "ssh -p $PORT" --delete --progress ./_site/ $USERNAME@$HOST:$DES$BASEURL
+  rsync -zrtopgv -e "ssh -p $PORT" --checksum --delete --progress ./_site/ $USERNAME@$HOST:$DES$BASEURL
 fi
 
+echo '-----sync back _site files to windows folder-----'
+rsync -zrtopgv --checksum --delete --progress ~/eastman_blog/_site /mnt/hgfs/Blog/eastman_blog
+cd -
+
+END_TIMESTAMP=`date "+%Y-%m-%d %H:%M:%S"`
+END_MSEC=`date +%s%3N`
+
+echo 'Start Time: ' START_TIMESTAMP
+echo 'End Time: ' END_TIMESTAMP
+DURATION_MSEC=`expr $END_MSEC - $START_MSEC`
+echo 'Total Seconds: ' `expr $DURATION_MSEC / 1000`
 
