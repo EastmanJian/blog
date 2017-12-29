@@ -41,5 +41,5 @@ END_MSEC=`date +%s%3N`
 echo 'Start Time: ' $START_TIMESTAMP
 echo 'End Time: ' $END_TIMESTAMP
 DURATION_MSEC=`expr $END_MSEC - $START_MSEC`
-echo 'Total Seconds: ' `expr $DURATION_MSEC / 1000`
+echo 'Total Time Spent: ' `expr $DURATION_MSEC / 1000` 'seconds.'
 
