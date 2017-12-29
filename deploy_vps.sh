@@ -1,4 +1,4 @@
-#!/bin/sh -vx
+#!/bin/sh 
 #Deploy the Jekyll generated _site files to the VPS host's web server document root
 #The client public key should be placed in the .ssh/authorized_keys for connection establishment.
 #Use --resources or -r option to sync resources (images, movies, ...) file from jekyll source folder only.
@@ -17,7 +17,7 @@ echo '-----deploy resources to cloud-----'
 ./cos_sync.sh
 
 echo '-----sync blog files to linux folder-----'
-rsync -zrtopgv --checksum --delete --progress /mnt/hgfs/Blog/eastman_blog ~/
+rsync -zrtopgv --checksum --delete --progress --exclude-from rsync_exclude.txt /mnt/hgfs/Blog/eastman_blog/_site /mnt/hgfs/Blog/eastman_blog ~/
 
 echo '-----build blog _site files-----'
 cd ~/eastman_blog
@@ -30,15 +30,16 @@ else
   rsync -zrtopgv -e "ssh -p $PORT" --checksum --delete --progress ./_site/ $USERNAME@$HOST:$DES$BASEURL
 fi
 
-echo '-----sync back _site files to windows folder-----'
-rsync -zrtopgv --checksum --delete --progress ~/eastman_blog/_site /mnt/hgfs/Blog/eastman_blog
+#echo '-----sync back _site files to windows folder-----'
+#rsync -zrtopgv --checksum --delete --progress ~/eastman_blog/_site /mnt/hgfs/Blog/eastman_blog
+
 cd -
 
 END_TIMESTAMP=`date "+%Y-%m-%d %H:%M:%S"`
 END_MSEC=`date +%s%3N`
 
-echo 'Start Time: ' START_TIMESTAMP
-echo 'End Time: ' END_TIMESTAMP
+echo 'Start Time: ' $START_TIMESTAMP
+echo 'End Time: ' $END_TIMESTAMP
 DURATION_MSEC=`expr $END_MSEC - $START_MSEC`
 echo 'Total Seconds: ' `expr $DURATION_MSEC / 1000`
 

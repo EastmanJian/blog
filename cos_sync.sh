@@ -1,4 +1,4 @@
-#!/bin/sh -vx
+#!/bin/sh 
 #
 # Wrapper shellscript for Tencent COS synchronization.
 # Make sure the sync tool is located in ./cos_sync 
