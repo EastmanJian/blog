@@ -3,7 +3,7 @@ layout: post
 title: "YARN: Trouble Shooting: /bin/java: No such file or directory"
 date: 2016-03-25 22:31:00 +08:00
 categories: BigData IT
-tags: Hadoop MapReduce YARN
+tags: Hadoop MapReduce YARN cluster
 ---
 
 * content

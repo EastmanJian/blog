@@ -150,6 +150,7 @@
       demo_link: 'https://eastmanjian.cn/react_demo/thinking_in_react',
       img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/react/design-flow.png',
       code_link: 'https://github.com/EastmanJian/react_demo/blob/master/react-demo-app/src/thinkingInReact.js',
+      detail_link: 'https://eastmanjian.cn/blog/2016/06/01/react-design-principle-and-philosophy/',
       title: 'Stock Item List Filtering',
       core_tech: 'ReactJS',
       description: 'A stock item list filtering page demonstrates the design steps of React: 1) Identify component hierarchy, 2) Build static version, 3) Identify States, 4) Identify State Owner, 5) Add Inverse Data Flow.'

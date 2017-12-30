@@ -3,7 +3,7 @@ layout: post
 title: "Adding a New HDFS DataNode to an Existing Hadoop Cluster"
 date: 2016-01-16 22:16:00 +08:00
 categories: BigData IT
-tags: Hadoop HDFS
+tags: Hadoop HDFS cluster
 ---
 
 * content

@@ -9,7 +9,8 @@ tags: Hadoop HDFS MapReduce YARN
 * content
 {:toc}
 
-		
+This article records a practical installation of Hadoop (HDFS+MapReduce/YARN) single-node cluster (Pseudo-Distributed Mode).
+
 # Prerequisites
 * GNU/Linux (env: Ubuntu 10.04 LTS +, CenOS 6.0 +)
 * Setup JDK, require 1.6+, (env: Installed JDK 1.8)

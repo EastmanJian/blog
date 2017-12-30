@@ -3,13 +3,14 @@ layout: post
 title: "Hadoop (HDFS+MapReduce/YARN) Cluster Setup"
 date: 2015-11-29 18:24:00 +08:00
 categories: BigData IT
-tags: Hadoop HDFS MapReduce YARN
+tags: Hadoop HDFS MapReduce YARN cluster
 ---
 
 * content
 {:toc}
 
-		
+This article records a practical installation of Hadoop (HDFS+MapReduce/YARN) cluster.
+
 # Approach
 * Setup two (or more) Pseudo-Distibute Mode machines, and then turn them as one true Cluster, one master and one slave.   
 

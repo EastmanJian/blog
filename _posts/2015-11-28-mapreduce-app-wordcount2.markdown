@@ -3,13 +3,14 @@ layout: post
 title: "MapReduce Application Example - WordCount2"
 date: 2015-11-28 21:59:00 +08:00
 categories: BigData IT
-tags: Hadoop HDFS MapReduce YARN
+tags: Hadoop HDFS MapReduce YARN cluster
 ---
 
 * content
 {:toc}
 
-		
+This article records a practical installation of Hadoop (HDFS+MapReduce/YARN) single-node cluster (Pseudo-Distributed Mode).
+
 ### WordCount2 MapReduce Application
 This app counts the number of occurrences of each word in a given input set. 
 

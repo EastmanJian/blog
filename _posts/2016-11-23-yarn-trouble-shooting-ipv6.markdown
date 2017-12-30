@@ -3,7 +3,7 @@ layout: post
 title: "YARN: Trouble Shooting: Run MapReduce Job on YARN err, IPv6 issue"
 date: 2016-11-23 22:48:00 +08:00
 categories: BigData IT
-tags: Hadoop MapReduce YARN
+tags: Hadoop MapReduce YARN cluster
 ---
 
 * content

@@ -3,7 +3,7 @@ layout: post
 title: "Hadoop: Trouble Shooting: Fail to start a new DataNode"
 date: 2016-01-15 22:19:00 +08:00
 categories: BigData IT
-tags: Hadoop HDFS
+tags: Hadoop HDFS cluster
 ---
 
 * content
