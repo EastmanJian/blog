@@ -113,6 +113,7 @@
         ["CSS Advanced",              "Image Opacity",                                            "https://eastmanjian.github.io/HTML_CSS_Demo/css_opacity_image.html"                    ,"TIY"],
         ["CSS Advanced",              "Textbox Opacity",                                          "https://eastmanjian.github.io/HTML_CSS_Demo/css_opacity_textbox.html"                  ,"TIY"],
         ["CSS Demo",                  "Navigation Bar",                                           "https://eastmanjian.github.io/HTML_CSS_Demo/css_position_float_nav_bar.html"           ,"TIY"],
+        ["CSS Demo",                  "Tooltips",                                                 "https://eastmanjian.github.io/HTML_CSS_Demo/css_tooltips.html"                         ,"TIY"],
         ["CSS3 - Border",             "CSS3 rounded corner border",                               "https://eastmanjian.github.io/HTML_CSS_Demo/css3_border_round.html"                    ,"TIY"],
         ["CSS3 - Border",             "CSS3 box shadow",                                          "https://eastmanjian.github.io/HTML_CSS_Demo/css3_border_shadow.html"                   ,"TIY"],
         ["CSS3 - Border",             "CSS3 curl shadow demo",                                    "https://eastmanjian.github.io/HTML_CSS_Demo/css3_curl_shadow.html"                     ,"TIY"],
@@ -202,6 +203,7 @@
         ["DOM API",           "onmouseover and onmouseout events",                                       "https://eastmanjian.cn/js_demo/dom/events_onmouse.html",                          "TIY"],
         ["DOM API",           "onmousedown, onmouseup and onclick events",                               "https://eastmanjian.cn/js_demo/dom/events_onmouseupdown_onclick.html",            "TIY"],
         ["DOM API",           "Event Propagation - addEventListener() bubbling or capturing",            "https://eastmanjian.cn/js_demo/dom/event_propagation_capturing_bubbling.html",    "TIY"],
+        ["DOM API",           "Container detect children's event",                                       "https://eastmanjian.github.io/javascript_demo/web/dom/event_container.html",      "TIY"],
         ["DOM API",           "node properties - nodeName, nodeType, nodeValue",                         "https://eastmanjian.cn/js_demo/dom/node_properties.html",                         "TIY"],
         ["DOM API",           "Cookie - create, delete",                                                 "https://eastmanjian.cn/js_demo/dom/cookie_create_delete.html",                    "TIY"],
         ["DOM API",           "Cookie - remember username demo",                                         "https://eastmanjian.cn/js_demo/dom/cookie_remember_username.html",                "TIY"],
@@ -223,9 +225,12 @@
         ["JSON",              "Convert JavaScript Object to JSON String",                                "https://eastmanjian.cn/js_demo/json/obj_2_json_string.html",                      "TIY"],
         ["AJAX",              "AJAX - replace text in a web page",                                       "https://eastmanjian.github.io/javascript_demo/web/ajax/ajax_load_text.html"            ],
         ["AJAX",              "AJAX - communicate with web server, provide suggestion while user input", "https://eastmanjian.cn/js_demo/ajax/ajax_suggestion.html"                              ],
+        ["AJAX",              "AJAX - provide suggestion for user input, improved resp sequence issue",  "https://eastmanjian.cn/js_demo/ajax/ajax_suggestion1.html"                             ],
         ["AJAX",              "AJAX - interactive communication with an XML file",                       "https://eastmanjian.github.io/javascript_demo/web/ajax/ajax_xml.html"                  ],
         ["AJAX",              "AJAX - retrieve ResponseHeader info.",                                    "https://eastmanjian.github.io/javascript_demo/web/ajax/ajax_header.html"               ],
         ["AJAX",              "AJAX - retrieve specific field from ResponseHeader",                      "https://eastmanjian.github.io/javascript_demo/web/ajax/ajax_specific_header.html"      ],
+        ["AJAX",              "AJAX - multi file upload",                                                "https://eastmanjian.cn/webapp_demo/async_upload/ajaxupload.html"                       ],
+        ["AJAX",              "AJAX - multi file upload (special version)",                              "https://eastmanjian.cn/webapp_demo/album/photobox.html"                                ],
         ["Plugin",            "CodeMirror - code editor - basic usage",                                  "https://eastmanjian.cn/js_demo/plugin/codeMirror/basic_usage.html",               "TIY"],
         ["Plugin",            "CodeMirror - code editor - render a textarea, htmlmix syntax highlight",  "https://eastmanjian.cn/js_demo/plugin/codeMirror/textarea_htmlmix.html",          "TIY"],
         ["Plugin",            "CodeMirror - code editor - API - get/set codes",                          "https://eastmanjian.cn/js_demo/plugin/codeMirror/codemirror_api.html",            "TIY"],
@@ -423,6 +428,16 @@
         ["MVC",       "Form - TagLib, Data binding, ModelAndView, @ModelAttribute",                      "https://eastmanjian.cn/spring_4x_mvc_form_demo/student"       ],
         ["MVC",       "Page Redirect, Access static pages or resources",                                 "https://eastmanjian.cn/spring_4x_mvc_redirect_demo/index"     ],
         ["MVC",       "Exception Handling, SimpleMappingExceptionResolver, @ExceptionHandler",           "https://eastmanjian.cn/spring_4x_mvc_exception_demo/student"  ]
+      ]  
+    },
+    {
+      "tech": "JEE (J2EE, Servlet, JSP, EJB)",
+      "list": [
+        ["Servlet",   "file upload, multipart form data, javax.servlet.http.Part",                       "https://eastmanjian.cn/webapp_demo/async_upload/ajaxupload.html"  ],
+        ["Servlet",   "file upload, multipart form data, javax.servlet.http.Part (special version)",     "https://eastmanjian.cn/webapp_demo/album/photobox.html"           ],
+        ["JSP",       "session - use session attribute to store user login infomation",                  "https://eastmanjian.cn/webapp_demo/session_login/index.jsp"       ],
+        ["JSP",       "session ID - use session attribute and isNew() to count visitors",                "https://eastmanjian.cn/webapp_demo/visit_count/visitor_count.jsp" ],
+        ["JSP",       "JSP declaration component, session ID, count web page visits",                    "https://eastmanjian.cn/webapp_demo/visit_count/visit_count.jsp"   ]
       ]  
     },
     {

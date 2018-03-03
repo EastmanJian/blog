@@ -46,6 +46,14 @@
       description: 'Canvas is a new feature in HTML5. It\'s used to draw graphics, on the fly, on a web page, via scripting (usually JavaScript). This demo shows some basic operations of canvas.'
     }, {
       demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fhtml5_drag_and_drop.html',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/path/a-star.png',
+      code_link: 'https://github.com/EastmanJian/algorithm_demo/tree/master/src/main/java/algorithm/graph/pathfinding/grid/astar',
+      detail_link: 'https://eastmanjian.cn/blog/2018/02/28/a-start-path-finding-algorithm/',
+      title: 'A* Path Search Algorithm',
+      core_tech: 'Algorithm Java',
+      description: 'A* algorithm is a popular choice of weighted graph search for a shortest path from one location to another. Applications are found in geographical map, games, etc..'
+    }, {
+      demo_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/path/astar.gif',
       img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/html5/drag-drop-demo.png',
       code_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fhtml5_drag_and_drop.html',
       detail_link: 'https://eastmanjian.cn/blog/2016/11/22/drag-and-drop-html5-vs-jquery/',

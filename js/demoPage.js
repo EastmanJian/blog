@@ -11,7 +11,7 @@ $(document).on( "mobileinit", function() {
  * load demo and prototypes list data when page is loaded.
  */
 $(document).ready(function() {
-    $.getJSON("../json/demo_list.json", renderDemoList).fail(function(jqxhr, textStatus, error){
+    $.getJSON("../json/demo_list.json"+"?ver=201802101406", renderDemoList).fail(function(jqxhr, textStatus, error){
       var err = textStatus + ", " + error;
       console.log("Get demo_list.json error. " + err);
     });
