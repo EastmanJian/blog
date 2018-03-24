@@ -18,7 +18,7 @@ type: page
 I believe we place our happiness in other people's hands.   
 人有时间就得多出去走走，不出去走走，怎么知道宅在家里舒服？  
 编程的乐趣在于成就感的两个来源--创造和毁灭。  
-为什么晚睡？源于碌碌无为的白天引发的愧疚感。  
+晚睡源于碌碌无为的白天引发的愧疚感。  
 What you give is what you get returned.  
 种一棵树最好的时间是十年前，其次是现在。  
 You don't know what you've got until you say goodbye.   
@@ -28,8 +28,9 @@ I'm loved when I'm completely by myself alone.
 I believe in love surviving death into eternity. 
 I believe the struggle for financial freedom is unfair.  
 The grass is no more greener on the other side.  
-能够自动化的工作就不再值得手工去完成。
-在我忘记之前，我会记住的。在我放弃之前，我会努力的。
+能够自动化的工作就不再值得手工去完成。  
+在我忘记之前，我会记住的。  
+在我放弃之前，我会坚持的。
 
 
 

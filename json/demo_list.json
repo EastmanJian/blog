@@ -19,8 +19,8 @@
         ["API",               "Web Storage (localStorage vs sessionStorage), counter example",     "https://eastmanjian.github.io/HTML_CSS_Demo/html5_web_storage.html"      , "TIY"],
         ["API",               "App Cache (Offline Application)",                                   "https://eastmanjian.github.io/HTML_CSS_Demo/html5_app_cache.html"        , "TIY"],
         ["API",               "Web Worker",                                                        "https://eastmanjian.github.io/HTML_CSS_Demo/html5_web_worker.html"              ],
-        ["API",               "Server-Sent Event - sever push dates",                              "https://eastmanjian.cn/html5_demo/html5_server_sent_event.html"          , "TIY"],
-        ["API",               "Server-Sent Event - server push registered users count",            "https://eastmanjian.cn/html5_demo/html5_sse_demo_cnt.html"               , "TIY"],
+        ["API",               "Server-Sent Event (SSE) - sever push dates",                        "https://eastmanjian.cn/html5_demo/html5_server_sent_event.html"          , "TIY"],
+        ["API",               "Server-Sent Event (SSE) - server push registered users count",      "https://eastmanjian.cn/html5_demo/html5_sse_demo_cnt.html"               , "TIY"],
         ["API",               "Cross Document Messaging using postMessage API",                    "https://eastmanjian.github.io/HTML_CSS_Demo/postMessagePortal.html"      , "TIY"],
         ["API",               "Cross-origin XMLHttpRequests L2 with upload progress event",        "https://eastmanjian.github.io/HTML_CSS_Demo/crossOriginUpload.html"      , "TIY"],
         ["API",               "XMLHttpRequests L2 download progress event",                        "https://eastmanjian.github.io/HTML_CSS_Demo/xhr_l2_progress_event.html"  , "TIY"]
@@ -211,6 +211,7 @@
         ["DOM API",           "document.querySelectorAll(), find element using CSS selector",            "https://eastmanjian.cn/js_demo/dom/query_selector_all.html",                      "TIY"],
         ["DOM API",           "setAttribute() = createAttribute() + setAttributeNode()",                 "https://eastmanjian.cn/js_demo/dom/attribute.html",                               "TIY"],
         ["DOM API",           "disabled property - disable interactive UI like button, text field",      "https://eastmanjian.cn/js_demo/dom/disable_element.html",                         "TIY"],
+        ["DOM API",           "drag and drop local files into an area",                                  "https://eastmanjian.cn/webapp_demo/async_upload/ajaxupload.html"                       ],
         ["BOM API",           "setInterval() and clearInterval(), execute a function without parameter", "https://eastmanjian.cn/js_demo/bom/timing_setinterval_clear.html",                "TIY"],
         ["BOM API",           "setTimeout(), clearTimeout(), execute a function with parameter",         "https://eastmanjian.cn/js_demo/bom/timing_settimeout_clear.html",                 "TIY"],
         ["BOM API",           "demo - a clock using setTimeout(), Changing CSS by Javascript",           "https://eastmanjian.cn/js_demo/bom/clock.html",                                   "TIY"],
@@ -221,6 +222,7 @@
         ["BOM API",           "window.location method - assign()",                                       "https://eastmanjian.cn/js_demo/bom/location_method.html",                         "TIY"],
         ["BOM API",           "window.navigator properties and methods",                                 "https://eastmanjian.cn/js_demo/bom/navigator.html",                               "TIY"],
         ["BOM API",           "window - alert(), confirm(), prompt()",                                   "https://eastmanjian.cn/js_demo/bom/popup_boxes.html",                             "TIY"],
+        ["BOM API",           "Using object URLs to display images thumbnails and file information",     "https://eastmanjian.cn/webapp_demo/album/upload/upload.html"                           ],
         ["JSON",              "Convert JSON String to JavaScript Object",                                "https://eastmanjian.cn/js_demo/json/json_string_2_obj.html",                      "TIY"],
         ["JSON",              "Convert JavaScript Object to JSON String",                                "https://eastmanjian.cn/js_demo/json/obj_2_json_string.html",                      "TIY"],
         ["AJAX",              "AJAX - replace text in a web page",                                       "https://eastmanjian.github.io/javascript_demo/web/ajax/ajax_load_text.html"            ],
@@ -333,6 +335,7 @@
         ["Plugin",            "DataTables plugin, customize features - paging, scroll, ordering",                "https://eastmanjian.cn/js_demo/jq/plugin/datatable/feature_enable_disable.html", "TIY"],
         ["Plugin",            "DataTables plugin, column filter",                                                "https://eastmanjian.cn/js_demo/jq/plugin/datatable/column_filter.html",          "TIY"],
         ["Plugin",            "DataTables plugin, filter specific column",                                       "https://eastmanjian.cn/js_demo/jq/plugin/datatable/column_filter_specific.html", "TIY"],
+        ["Plugin",            "DataTables plugin, ajax data source (file list and download)",                    "https://eastmanjian.cn/webapp_demo/album/photolist.html"                             ],
         ["Demo",              "jQuery UI Accordion, datatable plugin, jQuery AJAX read json data",               "https://eastmanjian.cn/js_demo/jq/demo/accordion_datatable.html",                "TIY"]
       ]
     },
@@ -434,7 +437,6 @@
       "tech": "JEE (J2EE, Servlet, JSP, EJB)",
       "list": [
         ["Servlet",   "file upload, multipart form data, javax.servlet.http.Part",                       "https://eastmanjian.cn/webapp_demo/async_upload/ajaxupload.html"  ],
-        ["Servlet",   "file upload, multipart form data, javax.servlet.http.Part (special version)",     "https://eastmanjian.cn/webapp_demo/album/photobox.html"           ],
         ["JSP",       "session - use session attribute to store user login infomation",                  "https://eastmanjian.cn/webapp_demo/session_login/index.jsp"       ],
         ["JSP",       "session ID - use session attribute and isNew() to count visitors",                "https://eastmanjian.cn/webapp_demo/visit_count/visitor_count.jsp" ],
         ["JSP",       "JSP declaration component, session ID, count web page visits",                    "https://eastmanjian.cn/webapp_demo/visit_count/visit_count.jsp"   ]
