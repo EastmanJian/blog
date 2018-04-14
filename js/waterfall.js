@@ -70,7 +70,7 @@
       description: 'The CSS opacity property is a part of the W3C CSS3 recommendation. 用CSS3嘅透明效果实现高亮选择。'
     }, {
       demo_link: 'https://eastmanjian.github.io/HTML_CSS_Demo/css_basic_demo.html',
-      img_link: 'http://ejres-1253687085.picgz.myqcloud.com/img/css3/sheet-switch-demo.png',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/css3/sheet-switch-demo.png',
       code_link: 'https://github.com/EastmanJian/HTML_CSS_Demo/blob/gh-pages/css_basic_demo.html',
       detail_link: 'https://eastmanjian.cn/blog/2014/11/12/css-sheet-switching/',
       title: 'Switching Between Style Sheets',
@@ -78,7 +78,7 @@
       description: 'Swith mutiple CSS on one HTML document. A single HTML document can be rendered into different style. CSS的魅力，同样一个HTML能渲染出各种风格的页面。'
     }, {
       demo_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss_position_float_big_letter.html',
-      img_link: 'http://ejres-1253687085.picgz.myqcloud.com/img/css3/first-letter-float.png',
+      img_link: 'https://ejres-1253687085.picgz.myqcloud.com/img/css3/first-letter-float.png',
       code_link: 'https://eastmanjian.cn/js_demo/tiy.jsp?sample=https%3A%2F%2Feastmanjian.github.io%2FHTML_CSS_Demo%2Fcss_position_float_big_letter.html',
       title: 'First Letter Sink and Enlarge Effect',
       core_tech: 'CSS',
