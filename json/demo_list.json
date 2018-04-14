@@ -239,6 +239,8 @@
         ["Plugin",            "List.js - function for list search and sort",                             "https://eastmanjian.cn/js_demo/plugin/list/searchList_with_api.html",             "TIY"],
         ["Plugin",            "List.js - fuzzy search a simple list",                                    "https://eastmanjian.cn/js_demo/plugin/list/fuzzySearchList.html",                 "TIY"],
         ["Plugin",            "List.js - fuzzy search a complex list, fuzzy parameters",                 "https://eastmanjian.cn/js_demo/plugin/list/fuzzzySearchMoreContent.html",         "TIY"],
+        ["WebSocket",         "WebSocket Object - Echo the message send from client to server",          "https://eastmanjian.cn/webapp_demo/websocket/echo.html"                                ],
+        ["WebSocket",         "A Chat Room base on WebSocket",                                           "https://eastmanjian.cn/webapp_demo/websocket/chat_room.html"                           ],
         ["ES5 new features",  "Strict Mode - 'use strict' directive",                                    "https://eastmanjian.cn/js_demo/es5/strict_mode.html",                             "TIY"],
         ["ES5 new features",  "Accessors (Getters and Setters)",                                         "https://eastmanjian.cn/js_demo/es5/getter_setter.html",                           "TIY"],
         ["ES5 new features",  "Legal trailing commas",                                                   "https://eastmanjian.cn/js_demo/es5/legal_trailing_commas.html",                   "TIY"],

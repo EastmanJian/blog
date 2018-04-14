@@ -18,13 +18,13 @@ permalink: /:year/:month/:day/:title/
 # The client public key should be placed in the .ssh/authorized_keys for connection establishment.
 #   vps_htdocs_root - the hyper text document root of the web server in the VPS
 ##     Bandwagon configuration:
-##       vps_host:         eastmanjian.cn
+##       vps_host:         eastmanjian.cn (111.230.132.26)
 ##       vps_ssh_port:     28411
 ##       vps_ssh_username: eastman
 ##       vps_htdocs_root:  /srv/www/htdocs
 ##       vps_jekyll_site:  /home/eastman/eastman_blog
 ##     Tencent qcloud configuration:
-vps_host:         111.230.132.26
+vps_host:         eastmanjian.cn
 vps_ssh_port:     28411
 vps_ssh_username: eastman
 vps_htdocs_root:  /srv/www/htdocs
@@ -87,7 +87,7 @@ tag_dir: tag/
 excerpt_separator: "\n\n\n\n"
 
 # paginate
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 6
 
 # Handling Reading

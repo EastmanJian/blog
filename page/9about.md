@@ -30,7 +30,9 @@ I believe the struggle for financial freedom is unfair.
 The grass is no more greener on the other side.  
 能够自动化的工作就不再值得手工去完成。  
 在我忘记之前，我会记住的。  
-在我放弃之前，我会坚持的。
+在我放弃之前，我会坚持的。  
+昔我故友屌似卿，如今坟头绿草盈。  
+大难不死，必有锅粥。 
 
 
 
